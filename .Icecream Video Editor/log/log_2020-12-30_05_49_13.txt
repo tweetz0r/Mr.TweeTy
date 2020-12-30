@@ -1,0 +1,262 @@
+
+
+------------------------------------------------------------
+Application started
+05:49:13.878: (I) 10900: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+05:49:13.878: (I) 10900: ice.systeminfo      : Kernel version: "10.0.19042"
+05:49:13.878: (I) 10900: ice.systeminfo      : CPU architecture: "x86_64"
+05:49:13.878: (I) 10900: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+05:49:13.878: (I) 10900: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+05:49:13.878: (I) 10900: ice.systeminfo      : BuildVersion: "2.3.4"
+05:49:13.878: (I) 10900: ice.systeminfo      : DisplayVersion: "2.34"
+05:49:13.878: (I) 10900: ice.systeminfo      : PID: 6044
+05:49:13.878: (I) 10900: ice.systeminfo      : Main thread id: 10900
+05:49:13.878: (I) 10900: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+05:49:13.878: (I) 10900: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+05:49:13.878: (I) 10900: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+05:49:13.878: (I) 10900: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+05:49:13.879: (I) 10900: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+05:49:13.879: (I) 10900: ice.systeminfo      : 
+05:49:13.879: (I) 10900: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+05:49:13.880: (I) 10900: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+05:49:13.881: (I) 10900: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+05:49:13.881: (I) 10900: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+05:49:14.281: (I) 10900: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+05:49:14.589: (I) 10900: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 308 msec
+05:49:14.589: (I) 10900: app.app             : Application::init                       : Entering 'Init app'
+05:49:14.777: (I) 10900: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+05:49:14.784: (I) 10900: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+05:49:14.784: (I) 10900: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+05:49:14.785: (I) 10900: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+05:49:14.789: (I) 10900: ui.player           : Player::Player                          :     Entering 'Create player'
+05:49:14.864: (I) 10900:                     : Player::Player()                        :       Create preview DX device:  "NVIDIA GeForce GTX 1070"
+05:49:14.951: (I) 10900:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+05:49:14.951: (I) 10900:                     : Player::Player()                        :       Create mediaprocessor DX device:  "NVIDIA GeForce GTX 1070"
+05:49:14.951: (I) 10900:                     : Player::Player()                        :       --- mediaprocessor context ---
+05:49:14.951: (I) 10900:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+05:49:14.951: (I) 10900:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+05:49:14.951: (I) 10900:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+05:49:14.951: (I) 10900:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+05:49:14.951: (I) 10900:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+05:49:15.361: (I) 10900:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+05:49:15.361: (I) 10900:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+05:49:15.361: (I) 10900:                     : audiorender::applySettingsFromSink()    :       		channel count: 6
+05:49:15.361: (I) 10900:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+05:49:15.361: (I) 10900:                     : audiorender::applySettingsFromSink()    :       		channel mask: 63
+05:49:15.361: (I) 10900:                     : audiorender::applySettingsFromSink()    :       		block size: 24
+05:49:15.368: (I) 10900: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 579
+05:49:15.423: (I) 10900:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+05:49:15.518: (I) 10900: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(290,83 1400x865)
+05:49:15.518: (I) 10900: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 734
+05:49:15.541: (I) 10900:                     : LicenseService::loadLicenseInfo()       :   License file found [OK]
+05:49:15.541: (W) 10900:                     : LicenseService::loadLicenseInfo()       :   Loading license file [FAILED]: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+05:49:15.541: (W) 10900:                     : LicenseService::isActivated()           :   License file corrupted. Input argument error: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+05:49:15.541: (I) 10900: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 952
+05:49:15.541: (I) 10900: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+05:49:15.542: (I) 10900: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+05:49:15.542: (I) 10900: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/Mr.TweeTy/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+05:49:15.543: (I) 10900: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+05:49:15.546: (I) 19876: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+05:49:15.549: (I) 19876: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 3
+05:49:15.553: (I) 10900: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 0
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+05:49:15.554: (I) 10900:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(My project 1, {5222d21f-c5...)
+05:49:15.554: (I) 10900:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+05:49:15.554: (I) 10900:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+05:49:15.554: (I) 10900:                     : mediaprocessor::setDocument()           :       Process setDocument()
+05:49:15.554: (I) 10900:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+05:49:15.554: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+05:49:15.555: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+05:49:15.555: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+05:49:15.555: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+05:49:15.555: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+05:49:15.555: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+05:49:15.555: (I) 10900: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+05:49:15.556: (I) 10900: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+05:49:15.556: (I) 10900: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 1
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+05:49:15.556: (I) 10900: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+05:49:15.556: (I) 10900: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 13
+05:49:15.556: (I) 10900: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 14
+05:49:15.588: (I)  2012:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Videos/2020-12-30-05-32-33.mp4"
+05:49:15.606: (I) 20008:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 52 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Videos/2020-12-30-05-32-33.mp4"
+05:49:15.623: (I) 20008:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 2073600 total count 1"
+05:49:15.623: (I) 20008:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4147200 total count 2"
+05:49:15.623: (I) 20008:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6220800 total count 3"
+05:49:15.642: (I) 20008:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 17 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Videos/2020-12-30-05-32-33.mp4"
+05:49:16.139: (I) 10900: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+05:49:16.139: (I) 10900: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x21fbf1efd00, name="MainWindow")
+05:49:16.233: (I) 10900: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+05:49:16.233: (I) 10900: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+05:49:16.233: (I) 10900: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+05:49:16.233: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/INONS.mp4"
+05:49:16.236: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/The HU - Wolf Totem (Official Music Video).mp3"
+05:49:16.238: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20200929-222740.mp4"
+05:49:16.239: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201007-142603.mp4"
+05:49:16.239: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/stuff.mp4"
+05:49:16.240: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/gubbie.mp4"
+05:49:16.245: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/huute.mp4"
+05:49:16.246: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/Die grossen Reden Adolf Hitlers-Teil.1.avi"
+05:49:16.249: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-09_18-19-44.mp4"
+05:49:16.251: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Die  Juden.mp4"
+05:49:16.252: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/AWOLNATION - Run (Audio).mp4"
+05:49:16.252: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/1607591704701_Trim.mp4"
+05:49:16.253: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/AWOLNATION - Run (Audio).mp3"
+05:49:16.255: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/youtube_com_Adolf_Hitler_talks_about_the_Jews_and_the_Allies_YouTube-xG5TiS6qVOU.mp4"
+05:49:16.256: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/15989d92919701.mp4"
+05:49:16.257: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201008-023054.mp4"
+05:49:16.257: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-12_01-48-06.mp4"
+05:49:16.263: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/asasasas.mp4"
+05:49:16.264: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/hitler42.wma"
+05:49:16.264: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201207-133620.mp4"
+05:49:16.265: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/THE GREAT REVOLUTION.mp4"
+05:49:16.266: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+05:49:16.267: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/Cardinal Burke_ Forces of the 'Great Reset' have used COVID to advance 'evil age.mp4"
+05:49:18.545: (I) 19876:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:18.640: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-16-18.mp4"
+05:49:18.641: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-29-26.mp4"
+05:49:18.642: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+05:49:18.692: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+05:49:18.693: (W) 10900: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+05:49:18.747: (I)  7720:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609303758702 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:20.542: (I) 10900: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.34&pid=9&mh=e38b5542883de74679b36f776e0f3122&h=829e3b7ad3ecea3402a861ef17593798"
+05:49:20.753: (I) 10900: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.34"
+05:49:20.753: (I) 10900: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.34" current version: 2.34 result: 0
+05:49:22.547: (I) 10900: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+05:49:22.548: (I) 19876: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+05:49:22.560: (I) 19876: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+05:49:22.560: (I) 19876: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 12
+05:49:22.579: (I) 10900: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 32
+05:49:22.604: (I) 20008:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 24 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:22.621: (I)  2012:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:22.633: (I)  5124:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609303762599 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:22.666: (I) 20008:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 31 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:25.633: (I) 20008:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 4"
+05:49:25.659: (I)  2012:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:49:26.213: (I) 10900: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:53:23.817: (I) 10900: ui.player           : Player::onPause()                       : Pause: clk: [02:34.925 (1549253117)]slider: [02:34.919 (1549195825)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+05:53:33.737: (I) 10900: ui.player           : Player::onPlay()                        : Play: clk: [02:36.436 (1564360000)]slider: [02:36.436 (1564360000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:53:35.192: (I) 10900: ui.player           : Player::onPause()                       : Pause: clk: [02:37.877 (1578772686)]slider: [02:37.871 (1578714769)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+05:53:35.359: (I) 10900: ui.player           : Player::onPlay()                        : Play: clk: [02:37.869 (1578693319)]slider: [02:37.869 (1578693319)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:55:57.002: (I) 10900: ui.player           : Player::onPause()                       : Pause: clk: [04:57.275 (2972753119)]slider: [04:57.244 (2972441869)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+05:56:02.683: (I)  2012:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:56:05.563: (I) 10900: ui.player           : Player::onPause()                       : Pause: clk: [04:56.119 (2961190000)]slider: [04:56.119 (2961190000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:56:05.564: (I) 10900: ui.player           : Player::onPause()                       : Pause: clk: [03:27.374 (2073749999)]slider: [03:27.374 (2073740000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:56:05.649: (I) 18568:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609304165621 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:56:08.443: (I)  2012:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:56:15.548: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:56:15.550: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+05:56:17.754: (I) 10900: app.export          : Ui::exportCurrentDocument()             : Begin export
+05:56:17.754: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:56:17.754: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:56:19.217: (I) 10900: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+05:56:19.252: (I) 22124:                     : threadProc()                            : Encoder thread id:  22124
+05:56:19.252: (I) 22124:                     : threadProc()                            : --- start encoding thread ---
+05:56:19.316: (I) 22124:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+05:56:19.316: (I) 22124:                     : threadProc()                            : --- encoder context ---
+05:56:19.316: (I) 22124:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+05:56:19.316: (I) 22124:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+05:56:19.316: (I) 22124:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+05:56:19.316: (I) 22124:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+05:56:19.316: (I) 22124:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+05:56:19.316: (I) 22124:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+05:56:19.316: (I) 22124:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+05:56:19.316: (I) 22124:                     : mediaprocessor::setDocument()           : Process setDocument()
+05:56:19.316: (I) 22124:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+05:56:19.316: (I) 22124:                     : threadProc()                            : encoding mediaprocessor init done
+05:56:19.316: (I) 22124:                     : threadProc()                            : output format:  mp4
+05:56:19.316: (I) 22124:                     : threadProc()                            : quality:  1
+05:56:19.316: (I) 22124:                     : threadProc()                            : frame size:  "1920x1080"
+05:56:19.316: (I) 22124:                     : threadProc()                            : document duration:  1396840000
+05:56:19.316: (I) 22124:                     : threadProc()                            : clip count:  1
+05:56:19.316: (W) 22124:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+05:56:19.316: (I) 22124:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\My project 1 2020-12-30_05-56-17.mp4"
+05:56:19.316: (I) 10900: ui.player           : Player::onPause()                       : Pause: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:56:19.364: (I) 12900:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 48 ms. Operation context: ENCODING. File path: C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:56:19.368: (I) 22124:                     : threadProc()                            : --- encoding parameters ---
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : use MF encoder
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : width:  1920
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : height:  1080
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : fps:  30
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : use hw:  true
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : sample rate:  48000
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : channels num:  2
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : channels mask:  3
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : audio format:  0
+05:56:19.369: (I) 22124:                     : mfencoder::dumpSettings()               : bits per sample:  16
+05:56:19.369: (I) 22124:                     : threadProc()                            : profile:  0
+05:56:19.389: (I) 10704:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/Adolf Hitler On Feminism.mp4"
+05:56:19.447: (I) 12900:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+05:56:19.448: (I) 12900:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+05:56:19.448: (I) 12900:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+05:56:19.686: (I) 22124:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+05:56:19.688: (I) 22124:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+05:56:19.690: (I) 22124:                     : threadProc()                            : encoder opened
+05:57:10.345: (I) 22124:                     : threadProc()                            : encoder closed
+05:57:10.445: (I) 22124:                     : threadProc()                            : shutdown encoding mediaprocessor
+05:57:10.480: (I) 22124:                     : threadProc()                            : checking encoding result...
+05:57:10.480: (I) 10900: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+05:57:10.518: (I) 22124:                     : threadProc()                            : encoding done
+06:15:36.774: (I) 10900: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+06:20:36.840: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:20:36.851: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 11
+06:25:36.842: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:25:36.845: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+06:30:36.843: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:30:36.846: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+06:35:36.845: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:35:36.845: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:40:36.851: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:40:36.851: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:45:36.853: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:45:36.854: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+06:50:36.853: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:50:36.853: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:55:36.856: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:55:36.857: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:00:36.857: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:00:36.858: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:05:36.858: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:05:36.859: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:10:36.860: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:10:36.861: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:15:36.860: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:15:36.861: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:20:36.863: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:20:36.864: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:25:36.867: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:25:36.868: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:30:36.869: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:30:36.870: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:35:36.871: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:35:36.872: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:39:57.431: (I) 10900: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+07:39:57.431: (I) 10900: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+07:39:57.445: (I) 10900: ui.player           : Player::~Player                         : Entering 'Delete player'
+07:39:57.472: (I) 10900: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 27
+07:39:57.544: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:39:57.545: (I) 10900: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:39:57.546: (I) 10900:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 3 timeout: 10000
+07:40:07.582: (I) 10900:                     : MetricSender::waitForSendAllImpl()      : Wait send metrics timeout reached. Unprocessed itemds: 3
+07:40:07.853: (I) 10900:                     : Application::~Application()             : App finished normally
+07:40:07.855: (I) 10900: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

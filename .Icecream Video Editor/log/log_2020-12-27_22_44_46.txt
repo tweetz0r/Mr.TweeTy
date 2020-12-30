@@ -1,0 +1,153 @@
+
+
+------------------------------------------------------------
+Application started
+22:44:46.951: (I) 15428: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+22:44:46.951: (I) 15428: ice.systeminfo      : Kernel version: "10.0.19042"
+22:44:46.951: (I) 15428: ice.systeminfo      : CPU architecture: "x86_64"
+22:44:46.951: (I) 15428: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+22:44:46.951: (I) 15428: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+22:44:46.951: (I) 15428: ice.systeminfo      : BuildVersion: "2.3.4"
+22:44:46.951: (I) 15428: ice.systeminfo      : DisplayVersion: "2.34"
+22:44:46.951: (I) 15428: ice.systeminfo      : PID: 19080
+22:44:46.951: (I) 15428: ice.systeminfo      : Main thread id: 15428
+22:44:46.952: (I) 15428: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+22:44:46.952: (I) 15428: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+22:44:46.952: (I) 15428: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+22:44:46.952: (I) 15428: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+22:44:46.952: (I) 15428: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+22:44:46.952: (I) 15428: ice.systeminfo      : 
+22:44:46.953: (I) 15428: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+22:44:46.953: (I) 15428: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+22:44:46.954: (I) 15428: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+22:44:46.954: (I) 15428: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+22:44:47.357: (I) 15428: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+22:44:47.658: (I) 15428: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 301 msec
+22:44:47.658: (I) 15428: app.app             : Application::init                       : Entering 'Init app'
+22:44:47.861: (I) 15428: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+22:44:47.869: (I) 15428: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+22:44:47.869: (I) 15428: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+22:44:47.869: (I) 15428: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+22:44:47.875: (I) 15428: ui.player           : Player::Player                          :     Entering 'Create player'
+22:44:47.949: (I) 15428:                     : Player::Player()                        :       Create preview DX device:  "NVIDIA GeForce GTX 1070"
+22:44:48.030: (I) 15428:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+22:44:48.030: (I) 15428:                     : Player::Player()                        :       Create mediaprocessor DX device:  "NVIDIA GeForce GTX 1070"
+22:44:48.030: (I) 15428:                     : Player::Player()                        :       --- mediaprocessor context ---
+22:44:48.030: (I) 15428:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+22:44:48.030: (I) 15428:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+22:44:48.030: (I) 15428:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+22:44:48.030: (I) 15428:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+22:44:48.030: (I) 15428:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+22:44:48.428: (I) 15428:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+22:44:48.428: (I) 15428:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+22:44:48.428: (I) 15428:                     : audiorender::applySettingsFromSink()    :       		channel count: 6
+22:44:48.428: (I) 15428:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+22:44:48.428: (I) 15428:                     : audiorender::applySettingsFromSink()    :       		channel mask: 63
+22:44:48.428: (I) 15428:                     : audiorender::applySettingsFromSink()    :       		block size: 24
+22:44:48.435: (I) 15428: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 560
+22:44:48.492: (I) 15428:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+22:44:48.591: (I) 15428: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(290,83 1400x865)
+22:44:48.591: (I) 15428: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 722
+22:44:48.618: (I) 15428:                     : LicenseService::loadLicenseInfo()       :   License file found [OK]
+22:44:48.618: (W) 15428:                     : LicenseService::loadLicenseInfo()       :   Loading license file [FAILED]: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+22:44:48.618: (W) 15428:                     : LicenseService::isActivated()           :   License file corrupted. Input argument error: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+22:44:48.618: (I) 15428: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 960
+22:44:48.618: (I) 15428: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+22:44:48.618: (I) 15428: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+22:44:48.618: (I) 15428: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/Mr.TweeTy/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+22:44:48.621: (I) 15428: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+22:44:48.625: (I)  7872: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+22:44:48.675: (I)  7872: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 50
+22:44:48.675: (I) 15428: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+22:44:48.675: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+22:44:48.675: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+22:44:48.676: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+22:44:48.676: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+22:44:48.676: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+22:44:48.676: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+22:44:48.676: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+22:44:48.676: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+22:44:48.677: (I) 15428:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(My project 1, {5222d21f-c5...)
+22:44:48.677: (I) 15428:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+22:44:48.677: (I) 15428:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+22:44:48.677: (I) 15428:                     : mediaprocessor::setDocument()           :       Process setDocument()
+22:44:48.677: (I) 15428:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+22:44:48.677: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+22:44:48.677: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+22:44:48.677: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+22:44:48.677: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+22:44:48.677: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+22:44:48.677: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+22:44:48.677: (I) 15428: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+22:44:48.678: (I) 15428: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+22:44:48.678: (I) 15428: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 1
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+22:44:48.678: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+22:44:48.679: (I) 15428: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 1
+22:44:48.679: (I) 15428: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 58
+22:44:48.679: (I) 15428: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 61
+22:44:48.679: (I) 22344:                     : main::lambda()                          : run preview cache storage check...
+22:44:48.679: (I) 22344:                     : main::lambda()                          : preview cache storage check done
+22:44:48.705: (I)  1628:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+22:44:48.728: (I) 10452:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 51 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+22:44:48.760: (I) 10452:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 2073600 total count 1"
+22:44:48.761: (I) 10452:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4147200 total count 2"
+22:44:48.761: (I) 10452:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6220800 total count 3"
+22:44:48.775: (I) 10452:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 13 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+22:44:49.201: (I) 15428: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+22:44:49.201: (I) 15428: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x1edb1d46e20, name="MainWindow")
+22:44:49.293: (I) 15428: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+22:44:49.293: (I) 15428: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+22:44:49.293: (I) 15428: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+22:44:49.294: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/INONS.mp4"
+22:44:49.300: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20200929-222740.mp4"
+22:44:49.302: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201007-142603.mp4"
+22:44:49.302: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/stuff.mp4"
+22:44:49.303: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/gubbie.mp4"
+22:44:49.306: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/huute.mp4"
+22:44:49.307: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/Die grossen Reden Adolf Hitlers-Teil.1.avi"
+22:44:49.310: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-09_18-19-44.mp4"
+22:44:49.315: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/1607591704701_Trim.mp4"
+22:44:49.317: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Die  Juden.mp4"
+22:44:49.321: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/youtube_com_Adolf_Hitler_talks_about_the_Jews_and_the_Allies_YouTube-xG5TiS6qVOU.mp4"
+22:44:49.323: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/15989d92919701.mp4"
+22:44:49.323: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201008-023054.mp4"
+22:44:49.324: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-12_01-48-06.mp4"
+22:44:49.327: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/asasasas.mp4"
+22:44:49.337: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201207-133620.mp4"
+22:44:53.384: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-16-18.mp4"
+22:44:53.384: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-29-26.mp4"
+22:44:53.385: (W) 15428: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+22:44:53.607: (I) 15428: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.34&pid=9&mh=e38b5542883de74679b36f776e0f3122&h=829e3b7ad3ecea3402a861ef17593798"
+22:44:53.841: (I) 15428: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.34"
+22:44:53.842: (I) 15428: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.34" current version: 2.34 result: 0
+22:45:07.561: (I) 15428: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+22:45:07.561: (I)  7872: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:45:07.568: (I)  7872: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:45:07.568: (I)  7872: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 7
+22:45:07.588: (I) 10452:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 19 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:45:07.595: (I) 15428: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 34
+22:45:07.630: (I)  1628:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:45:07.636: (I) 14564:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609105507586 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:45:07.643: (I) 10452:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 32 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:45:08.528: (I) 15428: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:45:55.678: (I) 15428: ui.player           : Player::onPause()                       : Pause: clk: [01:33.154 (931549323)]slider: [01:33.115 (931152241)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+22:45:55.751: (I)  2736:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609105555710 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:46:14.607: (I) 15428: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+22:46:14.607: (I) 15428: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+22:46:14.611: (I) 15428: ui.player           : Player::~Player                         : Entering 'Delete player'
+22:46:14.661: (I) 15428: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 50
+22:46:14.705: (I) 15428: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:46:14.708: (I) 15428: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+22:46:15.053: (I) 15428:                     : Application::~Application()             : App finished normally
+22:46:15.057: (I) 15428: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

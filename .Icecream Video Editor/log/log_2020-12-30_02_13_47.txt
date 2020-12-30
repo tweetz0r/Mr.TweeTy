@@ -1,0 +1,21 @@
+
+
+------------------------------------------------------------
+Application started
+02:13:47.829: (I) 10476: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+02:13:47.829: (I) 10476: ice.systeminfo      : Kernel version: "10.0.19042"
+02:13:47.829: (I) 10476: ice.systeminfo      : CPU architecture: "x86_64"
+02:13:47.829: (I) 10476: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+02:13:47.829: (I) 10476: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+02:13:47.829: (I) 10476: ice.systeminfo      : BuildVersion: "2.3.4"
+02:13:47.829: (I) 10476: ice.systeminfo      : DisplayVersion: "2.34"
+02:13:47.829: (I) 10476: ice.systeminfo      : PID: 14920
+02:13:47.829: (I) 10476: ice.systeminfo      : Main thread id: 10476
+02:13:47.829: (I) 10476: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+02:13:47.829: (I) 10476: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+02:13:47.829: (I) 10476: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+02:13:47.829: (I) 10476: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+02:13:47.829: (I) 10476: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+02:13:47.829: (I) 10476: ice.systeminfo      : 
+02:13:47.830: (I) 10476:                     : Application::~Application()             : App finished normally
+02:13:47.830: (I) 10476: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

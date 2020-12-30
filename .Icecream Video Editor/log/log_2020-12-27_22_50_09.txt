@@ -1,0 +1,1223 @@
+
+
+------------------------------------------------------------
+Application started
+22:50:09.455: (I) 11504: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+22:50:09.455: (I) 11504: ice.systeminfo      : Kernel version: "10.0.19042"
+22:50:09.455: (I) 11504: ice.systeminfo      : CPU architecture: "x86_64"
+22:50:09.455: (I) 11504: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+22:50:09.455: (I) 11504: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+22:50:09.455: (I) 11504: ice.systeminfo      : BuildVersion: "2.3.4"
+22:50:09.455: (I) 11504: ice.systeminfo      : DisplayVersion: "2.34"
+22:50:09.455: (I) 11504: ice.systeminfo      : PID: 7604
+22:50:09.455: (I) 11504: ice.systeminfo      : Main thread id: 11504
+22:50:09.455: (I) 11504: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+22:50:09.455: (I) 11504: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+22:50:09.455: (I) 11504: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+22:50:09.455: (I) 11504: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+22:50:09.455: (I) 11504: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+22:50:09.455: (I) 11504: ice.systeminfo      : 
+22:50:09.456: (I) 11504: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+22:50:09.457: (I) 11504: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+22:50:09.457: (I) 11504: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+22:50:09.457: (I) 11504: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+22:50:09.856: (I) 11504: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+22:50:10.145: (I) 11504: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 289 msec
+22:50:10.145: (I) 11504: app.app             : Application::init                       : Entering 'Init app'
+22:50:10.335: (I) 11504: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+22:50:10.343: (I) 11504: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+22:50:10.343: (I) 11504: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+22:50:10.343: (I) 11504: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+22:50:10.347: (I) 11504: ui.player           : Player::Player                          :     Entering 'Create player'
+22:50:10.420: (I) 11504:                     : Player::Player()                        :       Create preview DX device:  "NVIDIA GeForce GTX 1070"
+22:50:10.504: (I) 11504:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+22:50:10.504: (I) 11504:                     : Player::Player()                        :       Create mediaprocessor DX device:  "NVIDIA GeForce GTX 1070"
+22:50:10.504: (I) 11504:                     : Player::Player()                        :       --- mediaprocessor context ---
+22:50:10.504: (I) 11504:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+22:50:10.505: (I) 11504:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+22:50:10.505: (I) 11504:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+22:50:10.505: (I) 11504:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+22:50:10.505: (I) 11504:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+22:50:10.911: (I) 11504:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+22:50:10.911: (I) 11504:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+22:50:10.911: (I) 11504:                     : audiorender::applySettingsFromSink()    :       		channel count: 6
+22:50:10.911: (I) 11504:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+22:50:10.911: (I) 11504:                     : audiorender::applySettingsFromSink()    :       		channel mask: 63
+22:50:10.911: (I) 11504:                     : audiorender::applySettingsFromSink()    :       		block size: 24
+22:50:10.918: (I) 11504: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 571
+22:50:10.977: (I) 11504:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+22:50:11.071: (I) 11504: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(290,83 1400x865)
+22:50:11.071: (I) 11504: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 728
+22:50:11.096: (I) 11504:                     : LicenseService::loadLicenseInfo()       :   License file found [OK]
+22:50:11.096: (W) 11504:                     : LicenseService::loadLicenseInfo()       :   Loading license file [FAILED]: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+22:50:11.096: (W) 11504:                     : LicenseService::isActivated()           :   License file corrupted. Input argument error: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+22:50:11.096: (I) 11504: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 951
+22:50:11.096: (I) 11504: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+22:50:11.096: (I) 11504: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+22:50:11.096: (I) 11504: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/Mr.TweeTy/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+22:50:11.098: (I) 11504: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+22:50:11.102: (I)  9640: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+22:50:11.105: (I)  9640: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 3
+22:50:11.109: (I) 11504: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+22:50:11.109: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+22:50:11.109: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+22:50:11.110: (I) 11504:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(My project 1, {5222d21f-c5...)
+22:50:11.110: (I) 11504:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+22:50:11.110: (I) 11504:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+22:50:11.110: (I) 11504:                     : mediaprocessor::setDocument()           :       Process setDocument()
+22:50:11.110: (I) 11504:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+22:50:11.110: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+22:50:11.111: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+22:50:11.111: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+22:50:11.111: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+22:50:11.111: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+22:50:11.111: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+22:50:11.111: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+22:50:11.112: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+22:50:11.112: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 1
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+22:50:11.112: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+22:50:11.113: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+22:50:11.113: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 1
+22:50:11.113: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+22:50:11.113: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+22:50:11.113: (I) 11504: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+22:50:11.113: (I) 11504: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 15
+22:50:11.113: (I) 11504: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 17
+22:50:11.139: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:50:11.160: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 50 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:50:11.171: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 2073600 total count 1"
+22:50:11.171: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4147200 total count 2"
+22:50:11.172: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6220800 total count 3"
+22:50:11.188: (I) 22976:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 15 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Downloads/Zyklon Don - Kikes.ia.mp4"
+22:50:11.689: (I) 11504: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+22:50:11.689: (I) 11504: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x1d93f3f3e00, name="MainWindow")
+22:50:11.784: (I) 11504: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+22:50:11.784: (I) 11504: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+22:50:11.784: (I) 11504: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+22:50:11.784: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/INONS.mp4"
+22:50:11.790: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20200929-222740.mp4"
+22:50:11.791: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201007-142603.mp4"
+22:50:11.791: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/stuff.mp4"
+22:50:11.792: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/gubbie.mp4"
+22:50:11.795: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/huute.mp4"
+22:50:11.796: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/Die grossen Reden Adolf Hitlers-Teil.1.avi"
+22:50:11.799: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-09_18-19-44.mp4"
+22:50:11.803: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/1607591704701_Trim.mp4"
+22:50:11.806: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Die  Juden.mp4"
+22:50:11.810: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/youtube_com_Adolf_Hitler_talks_about_the_Jews_and_the_Allies_YouTube-xG5TiS6qVOU.mp4"
+22:50:11.811: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/15989d92919701.mp4"
+22:50:11.811: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201008-023054.mp4"
+22:50:11.812: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-12_01-48-06.mp4"
+22:50:11.815: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/asasasas.mp4"
+22:50:11.823: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201207-133620.mp4"
+22:50:16.094: (I) 11504: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.34&pid=9&mh=e38b5542883de74679b36f776e0f3122&h=829e3b7ad3ecea3402a861ef17593798"
+22:50:16.303: (I) 11504: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.34"
+22:50:16.303: (I) 11504: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.34" current version: 2.34 result: 0
+22:50:25.856: (I)  9640:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+22:50:25.958: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-16-18.mp4"
+22:50:25.959: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-29-26.mp4"
+22:50:25.961: (W) 11504: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+22:50:26.020: (I) 22644:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609105825967 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+22:50:28.190: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+22:50:28.192: (I)  9640: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:50:28.211: (I)  9640: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:50:28.211: (I)  9640: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 19
+22:50:28.242: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 52
+22:50:28.263: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 22 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+22:50:28.288: (I) 21840:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609105828259 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+22:50:28.306: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+22:50:28.323: (I) 22976:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 32 ms. Operation context: PLAY. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+22:53:08.979: (I)  1252:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:09.014: (I)  7368:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609105988992 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:10.885: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+22:53:10.885: (I)  1252: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+22:53:10.902: (I)  1252: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+22:53:10.902: (I)  1252: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 17
+22:53:10.919: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 34
+22:53:10.943: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 24 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:10.960: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:10.963: (I)  7368:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609105990936 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:11.002: (I) 22976:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 26 ms. Operation context: PLAY. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:23.066: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {cdf1dc19-1a6c-482a-a325-ef88c6183743} )
+22:53:23.066: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:23.066: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:23.074: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_General, docClip {cdf1dc19-1a6c-482a-a325-ef88c6183743}
+22:53:23.117: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 4"
+22:53:23.119: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:24.690: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Crop, docClip {cdf1dc19-1a6c-482a-a325-ef88c6183743}
+22:53:25.111: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_General, docClip {cdf1dc19-1a6c-482a-a325-ef88c6183743}
+22:53:26.356: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {cdf1dc19-1a6c-482a-a325-ef88c6183743} )
+22:53:26.357: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:26.424: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:27.515: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:53:32.325: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:33.427: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:21.237 (212370000)]slider: [00:21.237 (212370000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:53:33.428: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:53:36.832: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:53:37.676: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:53:38.321: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [00:20.846 (208469160)]slider: [00:20.821 (208218536)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+22:53:38.324: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:38.870: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:20.801 (208016663)]slider: [00:20.801 (208016663)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:53:38.870: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:53:40.285: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:53:41.230: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:53:48.081: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:53:48.331: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+22:53:48.331: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:43.350 (1633500000)]slider: [02:43.350 (1633500000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+22:53:48.332: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:48.391: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:53:50.639: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:53:54.695: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:53:55.687: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:53:59.806: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:01.704: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:54:04.028: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:05.926: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:41.347 (1613470000)]slider: [02:41.347 (1613470000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:54:05.926: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:05.926: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:41.347 (1613470000)]slider: [02:41.347 (1613470000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:54:05.926: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:05.970: (I) 19880:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609106045949 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:05.983: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:13.800: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:15.382: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:54:19.045: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:20.392: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+22:54:22.875: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:23.545: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:20.778 (1407780000)]slider: [02:20.778 (1407780000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:54:23.545: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:23.546: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:20.778 (1407780000)]slider: [02:20.778 (1407780000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:54:23.547: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:23.606: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:23.609: (I) 19880:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609106063583 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:26.279: (I) 11504: app.export          : Ui::exportCurrentDocument()             : Begin export
+22:54:26.280: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:54:26.293: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 13
+22:54:30.797: (I) 11504: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+22:54:30.855: (I) 22164:                     : threadProc()                            : Encoder thread id:  22164
+22:54:30.855: (I) 22164:                     : threadProc()                            : --- start encoding thread ---
+22:54:30.922: (I) 22164:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+22:54:30.922: (I) 22164:                     : threadProc()                            : --- encoder context ---
+22:54:30.922: (I) 22164:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+22:54:30.923: (I) 22164:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+22:54:30.923: (I) 22164:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+22:54:30.923: (I) 22164:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+22:54:30.923: (I) 22164:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+22:54:30.923: (I) 22164:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+22:54:30.923: (I) 22164:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+22:54:30.923: (I) 22164:                     : mediaprocessor::setDocument()           : Process setDocument()
+22:54:30.923: (I) 22164:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+22:54:30.923: (I) 22164:                     : threadProc()                            : encoding mediaprocessor init done
+22:54:30.923: (I) 22164:                     : threadProc()                            : output format:  mp4
+22:54:30.923: (I) 22164:                     : threadProc()                            : quality:  1
+22:54:30.923: (I) 22164:                     : threadProc()                            : frame size:  "1920x1080"
+22:54:30.923: (I) 22164:                     : threadProc()                            : document duration:  1398440000
+22:54:30.923: (I) 22164:                     : threadProc()                            : clip count:  1
+22:54:30.923: (W) 22164:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:54:30.923: (I) 22164:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\huha.mp4"
+22:54:30.923: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:18.908 (1389080000)]slider: [02:18.908 (1389080000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+22:54:30.923: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+22:54:30.967: (I) 23500:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 44 ms. Operation context: ENCODING. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:30.973: (I) 22164:                     : threadProc()                            : --- encoding parameters ---
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : use MF encoder
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : width:  1920
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : height:  1080
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : fps:  30
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : use hw:  true
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : sample rate:  48000
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : channels num:  2
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : channels mask:  3
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : audio format:  0
+22:54:30.974: (I) 22164:                     : mfencoder::dumpSettings()               : bits per sample:  16
+22:54:30.974: (I) 22164:                     : threadProc()                            : profile:  0
+22:54:30.983: (I)  6908:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:54:30.986: (I) 23500:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+22:54:30.987: (I) 23500:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+22:54:30.987: (I) 23500:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+22:54:31.236: (I) 22164:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+22:54:31.242: (I) 22164:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+22:54:31.246: (I) 22164:                     : threadProc()                            : encoder opened
+22:55:22.506: (I) 22164:                     : threadProc()                            : encoder closed
+22:55:22.566: (I) 22164:                     : threadProc()                            : shutdown encoding mediaprocessor
+22:55:22.625: (I) 22164:                     : threadProc()                            : checking encoding result...
+22:55:22.626: (I) 11504: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+22:55:22.681: (W) 22164:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+22:55:22.681: (I) 22164:                     : threadProc()                            : encoding done
+22:55:28.980: (I) 11504: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+22:58:37.694: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 57 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/Nordfront - Hu Ha Antifa.ia.mp4"
+22:58:37.729: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 10368000 total count 5"
+22:58:37.730: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 12441600 total count 6"
+22:58:37.730: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 14515200 total count 7"
+23:00:29.034: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:00:29.039: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 5
+23:00:37.333: (I) 11504:                     : mediaimporter::mediaimporter()          : Using 2 background workers
+23:00:38.471: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+23:00:38.471: (I) 10168: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:00:38.477: (I) 10168: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:00:38.477: (I) 10168: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+23:00:38.494: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 23
+23:00:38.511: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 18 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+23:00:38.533: (I) 12824:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609106438509 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+23:00:38.551: (I) 22976:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 22 ms. Operation context: PLAY. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+23:00:38.565: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+23:01:06.020: (I) 10168:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:06.056: (I) 10776:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609106466037 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:13.745: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+23:01:13.747: (I) 10168: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+23:01:13.763: (I) 10168: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+23:01:13.763: (I) 10168: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 16
+23:01:13.795: (I) 22976:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 29 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:13.800: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 55
+23:01:13.811: (I) 12824:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609106473792 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:13.832: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:13.840: (I) 22976:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 23 ms. Operation context: PLAY. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:17.402: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 8"
+23:01:17.413: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:26.666: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+23:01:26.987: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:01:27.704: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:19.923 (199230000)]slider: [00:19.923 (199230000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:01:27.704: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:01:28.637: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+23:01:28.939: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:01:29.955: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+23:01:30.205: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:01:31.217: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+23:01:32.337: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:01:41.459: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+23:01:45.131: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:01:45.140: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:22.090 (1420900000)]slider: [02:22.090 (1420900000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+23:01:45.140: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:01:45.201: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:01:46.776: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [01:51.454 (1114540000)]slider: [01:51.454 (1114540000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:01:46.776: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:02:17.470: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:22.136 (1421362437)]slider: [02:22.087 (1420878897)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:17.475: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:18.783: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:22.090 (1420900000)]slider: [02:22.090 (1420900000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:18.784: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:18.784: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:22.090 (1420900000)]slider: [02:22.090 (1420900000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:18.784: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:18.788: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {a86a8a8e-c0f5-4e97-9ca7-a6cddafc7a20} )
+23:02:18.788: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:18.788: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:18.789: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Audio, docClip {a86a8a8e-c0f5-4e97-9ca7-a6cddafc7a20}
+23:02:18.830: (I)  3804:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609106538796 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:18.849: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:21.784: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {a86a8a8e-c0f5-4e97-9ca7-a6cddafc7a20} )
+23:02:21.784: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:21.830: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:23.665: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:16.076 (1360760000)]slider: [02:16.076 (1360760000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:23.665: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:23.666: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:16.076 (1360760000)]slider: [02:16.076 (1360760000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:23.666: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:23.718: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:24.848: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {a86a8a8e-c0f5-4e97-9ca7-a6cddafc7a20} )
+23:02:24.848: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:24.848: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:24.849: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_General, docClip {a86a8a8e-c0f5-4e97-9ca7-a6cddafc7a20}
+23:02:24.866: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:30.935: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:31.855: (I) 11504: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {a86a8a8e-c0f5-4e97-9ca7-a6cddafc7a20} )
+23:02:31.855: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:31.914: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:32.851: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+23:02:32.969: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:34.835: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [01:59.042 (1190420000)]slider: [01:59.042 (1190420000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:34.835: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+23:02:54.893: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:19.087 (1390877812)]slider: [02:19.041 (1390411979)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:54.895: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:54.934: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:57.958: (I) 11504: app.export          : Ui::exportCurrentDocument()             : Begin export
+23:02:57.958: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:02:57.972: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 14
+23:02:59.536: (I) 11504: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+23:02:59.596: (I)  3780:                     : threadProc()                            : Encoder thread id:  3780
+23:02:59.596: (I)  3780:                     : threadProc()                            : --- start encoding thread ---
+23:02:59.663: (I)  3780:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+23:02:59.663: (I)  3780:                     : threadProc()                            : --- encoder context ---
+23:02:59.663: (I)  3780:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+23:02:59.663: (I)  3780:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+23:02:59.663: (I)  3780:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+23:02:59.663: (I)  3780:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+23:02:59.663: (I)  3780:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+23:02:59.664: (I)  3780:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+23:02:59.664: (I)  3780:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+23:02:59.664: (I)  3780:                     : mediaprocessor::setDocument()           : Process setDocument()
+23:02:59.664: (I)  3780:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+23:02:59.664: (I)  3780:                     : threadProc()                            : encoding mediaprocessor init done
+23:02:59.664: (I)  3780:                     : threadProc()                            : output format:  mp4
+23:02:59.664: (I)  3780:                     : threadProc()                            : quality:  1
+23:02:59.664: (I)  3780:                     : threadProc()                            : frame size:  "1920x1080"
+23:02:59.664: (I)  3780:                     : threadProc()                            : document duration:  1390840000
+23:02:59.664: (I)  3780:                     : threadProc()                            : clip count:  1
+23:02:59.664: (W)  3780:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+23:02:59.664: (I)  3780:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\My project 1 2020-12-27_23-02-57.mp4"
+23:02:59.664: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:19.083 (1390830000)]slider: [02:19.083 (1390830000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+23:02:59.664: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+23:02:59.708: (I)  7840:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 44 ms. Operation context: ENCODING. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:59.717: (I)  3780:                     : threadProc()                            : --- encoding parameters ---
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : use MF encoder
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : width:  1920
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : height:  1080
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : fps:  30
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : use hw:  true
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : sample rate:  48000
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : channels num:  2
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : channels mask:  3
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : audio format:  0
+23:02:59.717: (I)  3780:                     : mfencoder::dumpSettings()               : bits per sample:  16
+23:02:59.717: (I)  3780:                     : threadProc()                            : profile:  0
+23:02:59.725: (I) 12744:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+23:02:59.761: (I)  7840:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+23:02:59.762: (I)  7840:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+23:02:59.762: (I)  7840:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+23:02:59.929: (I)  3780:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+23:02:59.930: (I)  3780:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+23:02:59.931: (I)  3780:                     : threadProc()                            : encoder opened
+23:03:50.358: (I)  3780:                     : threadProc()                            : encoder closed
+23:03:50.407: (I)  3780:                     : threadProc()                            : shutdown encoding mediaprocessor
+23:03:50.459: (I)  3780:                     : threadProc()                            : checking encoding result...
+23:03:50.459: (I) 11504: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+23:03:50.488: (W)  3780:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+23:03:50.488: (I)  3780:                     : threadProc()                            : encoding done
+23:15:51.663: (I) 11504: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+23:20:51.704: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:20:51.708: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+23:25:51.708: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:25:51.711: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+23:30:51.707: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:30:51.709: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+23:35:51.710: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:35:51.713: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+23:40:51.707: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:40:51.707: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:45:51.710: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:45:51.712: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+23:50:51.709: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:50:51.709: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:55:51.709: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:55:51.712: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:00:51.710: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:00:51.713: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:05:51.711: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:05:51.713: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+00:10:51.714: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:10:51.716: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+00:15:51.715: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:15:51.717: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+00:20:51.711: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:20:51.711: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+00:25:51.712: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:25:51.715: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:30:51.713: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:30:51.716: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:35:51.714: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:35:51.717: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:40:51.716: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:40:51.717: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+00:45:51.714: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:45:51.717: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:50:51.714: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:50:51.714: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+00:55:51.715: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:55:51.717: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+01:00:51.718: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:00:51.720: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+01:05:51.716: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:05:51.719: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+01:10:51.720: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:10:51.721: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:15:51.717: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:15:51.720: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+01:20:51.718: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:20:51.721: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+01:25:51.721: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:25:51.725: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+01:30:51.721: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:30:51.723: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+01:35:51.723: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:35:51.725: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+01:40:51.724: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:40:51.724: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:45:51.722: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:45:51.724: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+01:50:51.736: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:50:51.736: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:55:51.794: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:55:51.797: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+02:00:51.854: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:00:51.856: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:05:51.914: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:05:51.917: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+02:10:51.971: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:10:51.973: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:15:52.029: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:15:52.031: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:20:52.088: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:20:52.090: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:25:52.149: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:25:52.151: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:30:52.204: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:30:52.207: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+02:35:52.264: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:35:52.267: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+02:40:52.320: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:40:52.322: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:45:52.379: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:45:52.381: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:50:52.425: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:50:52.426: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+02:55:52.433: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:55:52.435: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+03:00:52.440: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:00:52.443: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+03:05:52.447: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:05:52.449: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+03:10:52.455: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:10:52.458: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+03:15:52.463: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:15:52.465: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+03:20:52.471: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:20:52.474: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+03:25:52.477: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:25:52.477: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:30:52.485: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:30:52.485: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:35:52.497: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:35:52.499: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+03:40:52.501: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:40:52.503: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+03:45:52.513: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:45:52.516: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+03:50:52.515: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:50:52.515: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:55:52.516: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:55:52.517: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:00:52.518: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:00:52.519: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:05:52.522: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:05:52.523: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:10:52.521: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:10:52.522: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:15:52.523: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:15:52.524: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:20:52.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:20:52.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:25:52.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:25:52.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:30:52.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:30:52.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:35:52.529: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:35:52.529: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:40:52.529: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:40:52.530: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:45:52.533: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:45:52.533: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:50:52.533: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:50:52.533: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:55:52.534: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:55:52.536: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+05:00:52.536: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:00:52.536: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:05:52.535: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:05:52.535: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:10:52.541: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:10:52.541: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:15:52.537: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:15:52.538: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:20:52.540: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:20:52.541: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:25:52.542: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:25:52.543: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:30:52.542: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:30:52.543: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:35:52.543: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:35:52.545: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+05:40:52.543: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:40:52.543: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:45:52.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:45:52.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:50:52.545: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:50:52.545: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:55:52.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:55:52.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+06:00:52.544: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:00:52.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+06:05:52.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:05:52.550: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+06:10:52.547: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:10:52.547: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:15:52.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:15:52.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:20:52.548: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:20:52.548: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:25:52.552: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:25:52.553: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+06:30:52.548: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:30:52.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+06:35:52.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:35:52.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:40:52.554: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:40:52.554: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:45:52.553: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:45:52.554: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+06:50:52.552: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:50:52.552: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+06:55:52.553: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:55:52.553: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+07:00:52.556: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:00:52.557: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:05:52.556: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:05:52.557: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:10:52.556: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:10:52.557: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:15:52.560: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:15:52.561: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:20:52.558: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:20:52.558: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+07:25:52.559: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:25:52.560: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:30:52.559: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:30:52.562: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+07:35:52.560: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:35:52.561: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:40:52.562: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:40:52.563: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+07:45:52.562: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:45:52.562: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+07:50:52.561: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:50:52.561: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+07:55:52.566: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+07:55:52.569: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+08:00:52.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:00:52.570: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+08:05:52.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:05:52.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+08:10:52.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:10:52.568: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+08:15:52.566: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:15:52.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+08:20:52.569: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:20:52.569: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+08:25:52.568: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:25:52.568: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+08:30:52.568: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:30:52.571: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+08:35:52.571: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:35:52.571: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+08:40:52.573: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:40:52.573: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+08:45:52.569: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:45:52.570: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+08:50:52.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:50:52.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+08:55:52.574: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+08:55:52.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+09:00:52.572: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:00:52.576: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+09:05:52.574: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:05:52.574: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+09:10:52.576: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:10:52.577: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+09:15:52.577: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:15:52.577: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+09:20:52.576: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:20:52.576: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+09:25:52.578: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:25:52.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+09:30:52.579: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:30:52.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+09:35:52.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:35:52.582: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+09:40:52.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:40:52.584: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+09:45:52.583: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:45:52.585: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+09:50:52.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:50:52.582: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+09:55:52.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:55:52.582: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+10:00:52.584: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:00:52.585: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+10:05:52.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:05:52.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+10:10:52.585: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:10:52.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+10:15:52.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:15:52.587: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+10:20:52.590: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:20:52.591: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+10:25:52.591: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:25:52.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+10:30:52.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:30:52.590: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+10:35:52.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:35:52.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+10:40:52.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:40:52.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+10:45:52.595: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:45:52.595: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+10:50:52.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:50:52.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+10:55:52.596: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+10:55:52.597: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:00:52.669: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:00:52.669: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+11:05:52.739: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:05:52.740: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:10:52.812: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:10:52.812: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+11:15:52.881: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:15:52.882: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:20:52.955: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:20:52.955: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+11:25:53.027: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:25:53.027: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+11:30:53.096: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:30:53.097: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:35:53.170: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:35:53.171: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:40:53.239: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:40:53.240: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:45:53.312: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:45:53.313: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:50:53.382: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:50:53.382: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+11:55:53.453: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:55:53.453: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:00:53.460: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:00:53.460: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:05:53.470: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:05:53.471: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:10:53.480: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:10:53.480: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:15:53.490: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:15:53.491: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:20:53.500: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:20:53.503: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+12:25:53.509: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:25:53.510: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:30:53.520: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:30:53.520: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:35:53.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:35:53.527: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:40:53.538: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:40:53.539: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:45:53.547: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:45:53.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+12:50:53.558: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:50:53.558: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:55:53.568: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:55:53.569: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:00:53.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:00:53.568: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:05:53.570: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:05:53.573: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+13:10:53.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:10:53.577: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+13:15:53.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:15:53.576: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:20:53.577: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:20:53.578: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:25:53.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:25:53.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:30:53.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:30:53.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:35:53.585: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:35:53.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:40:53.587: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:40:53.588: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:45:53.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:45:53.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+13:50:53.592: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:50:53.592: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+13:55:53.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:55:53.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+14:00:53.592: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:00:53.593: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:05:53.597: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:05:53.599: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+14:10:53.598: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:10:53.598: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+14:15:53.595: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:15:53.596: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:20:53.597: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:20:53.598: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:25:53.602: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:25:53.602: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+14:30:53.599: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:30:53.600: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:35:53.604: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:35:53.605: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:40:53.605: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:40:53.606: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:45:53.603: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:45:53.606: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+14:50:53.604: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:50:53.604: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+14:55:53.608: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:55:53.608: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+15:00:53.608: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:00:53.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:05:53.608: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:05:53.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:10:53.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:10:53.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+15:15:53.612: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:15:53.612: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+15:20:53.613: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:20:53.613: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+15:25:53.614: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:25:53.614: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+15:30:53.615: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:30:53.617: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+15:35:53.618: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:35:53.619: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:40:53.614: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:40:53.615: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:45:53.617: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:45:53.618: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:50:53.617: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:50:53.617: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+15:55:53.620: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:55:53.621: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:00:53.619: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:00:53.620: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:05:53.626: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:05:53.628: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+16:10:53.622: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:10:53.623: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:15:53.622: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:15:53.623: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:20:53.626: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:20:53.626: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+16:25:53.626: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:25:53.627: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:30:53.630: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:30:53.634: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+16:35:53.626: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:35:53.627: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:40:53.628: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:40:53.628: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+16:45:53.629: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:45:53.629: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:50:53.631: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:50:53.633: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+16:55:53.632: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:55:53.635: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+17:00:53.632: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:00:53.632: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+17:05:53.636: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:05:53.636: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+17:10:53.636: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:10:53.639: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+17:15:53.634: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:15:53.635: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+17:20:53.638: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:20:53.641: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+17:25:53.639: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:25:53.639: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+17:30:53.638: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:30:53.639: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+17:35:53.641: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:35:53.642: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+17:40:53.641: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:40:53.641: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+17:45:53.643: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:45:53.643: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+17:50:53.644: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:50:53.644: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+17:55:53.647: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+17:55:53.649: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+18:00:53.645: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:00:53.645: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+18:05:53.648: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:05:53.649: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+18:10:53.647: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:10:53.648: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+18:15:53.650: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:15:53.650: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+18:20:53.651: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:20:53.652: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+18:25:53.652: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:25:53.652: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+18:30:53.655: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:30:53.655: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+18:35:53.656: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:35:53.656: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+18:40:53.655: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:40:53.656: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+18:45:53.655: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:45:53.656: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+18:50:53.659: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:50:53.659: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+18:55:53.659: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+18:55:53.660: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+19:00:53.658: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:00:53.661: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+19:05:53.662: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:05:53.663: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+19:10:53.664: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:10:53.665: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+19:15:53.665: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:15:53.665: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+19:20:53.662: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:20:53.663: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+19:25:53.663: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:25:53.663: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+19:30:53.665: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:30:53.668: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+19:35:53.665: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:35:53.665: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+19:40:53.666: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:40:53.667: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+19:45:53.668: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:45:53.671: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+19:50:53.670: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:50:53.670: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+19:55:53.673: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+19:55:53.674: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+20:00:53.671: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:00:53.672: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+20:05:53.700: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:05:53.703: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+20:10:53.732: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:10:53.732: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+20:15:53.763: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:15:53.763: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+20:20:53.794: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:20:53.795: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+20:25:53.827: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:25:53.827: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+20:30:53.860: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:30:53.861: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+20:35:53.893: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:35:53.893: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+20:40:53.923: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:40:53.925: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+20:45:53.958: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:45:53.958: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+20:50:53.989: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:50:53.990: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+20:55:54.020: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+20:55:54.021: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:00:54.051: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:00:54.052: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:05:54.076: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:05:54.076: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+21:10:54.090: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:10:54.091: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:15:54.109: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:15:54.110: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:20:54.128: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:20:54.128: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+21:25:54.149: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:25:54.149: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+21:30:54.166: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:30:54.167: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:35:54.186: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:35:54.187: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:40:54.201: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:40:54.202: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:45:54.221: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:45:54.222: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+21:50:54.239: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:50:54.239: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+21:55:54.261: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+21:55:54.261: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+22:00:54.276: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:00:54.277: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:05:54.291: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:05:54.294: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+22:10:54.300: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:10:54.301: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:15:54.312: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:15:54.313: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:20:54.324: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:20:54.325: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:25:54.331: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:25:54.332: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:30:54.346: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:30:54.347: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:35:54.355: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:35:54.357: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+22:40:54.364: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:40:54.364: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+22:45:54.375: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:45:54.376: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+22:50:54.386: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:50:54.386: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+22:55:54.402: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+22:55:54.403: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:00:54.412: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:00:54.412: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:05:54.418: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:05:54.418: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:10:54.423: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:10:54.424: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+23:15:54.432: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:15:54.435: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+23:20:54.438: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:20:54.439: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+23:25:54.443: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:25:54.445: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+23:30:54.448: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:30:54.449: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+23:35:54.457: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:35:54.458: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:40:54.465: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:40:54.465: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:45:54.469: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:45:54.470: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+23:50:54.476: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:50:54.476: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+23:55:54.483: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+23:55:54.486: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:00:54.491: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:00:54.494: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:05:54.494: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:05:54.495: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+00:10:54.499: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:10:54.502: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:15:54.504: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:15:54.508: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+00:20:54.509: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:20:54.509: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+00:25:54.513: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:25:54.513: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+00:30:54.517: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:30:54.521: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+00:35:54.522: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:35:54.523: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+00:40:54.525: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:40:54.528: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+00:45:54.529: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:45:54.531: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+00:50:54.533: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:50:54.533: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+00:55:54.538: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+00:55:54.539: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:00:54.540: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:00:54.540: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:05:54.544: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:05:54.546: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+01:10:54.548: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:10:54.549: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:15:54.550: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:15:54.550: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:20:54.552: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:20:54.553: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:25:54.556: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:25:54.557: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:30:54.557: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:30:54.557: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:35:54.563: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:35:54.564: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:40:54.566: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:40:54.567: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+01:45:54.566: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:45:54.566: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:50:54.570: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:50:54.570: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+01:55:54.574: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+01:55:54.574: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:00:54.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:00:54.575: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:05:54.579: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:05:54.579: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:10:54.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:10:54.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:15:54.580: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:15:54.581: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+02:20:54.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:20:54.586: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:25:54.588: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:25:54.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+02:30:54.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:30:54.589: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:35:54.592: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:35:54.592: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:40:54.594: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:40:54.596: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+02:45:54.596: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:45:54.599: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+02:50:54.597: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:50:54.597: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+02:55:54.599: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:55:54.599: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:00:54.602: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:00:54.602: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:05:54.604: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:05:54.607: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+03:10:54.604: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:10:54.605: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+03:15:54.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:15:54.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:20:54.608: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:20:54.608: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:25:54.609: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:25:54.610: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+03:30:54.614: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:30:54.616: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+03:35:54.614: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:35:54.615: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+03:40:54.618: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:40:54.619: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+03:45:54.616: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:45:54.619: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+03:50:54.617: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:50:54.617: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+03:55:54.621: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+03:55:54.624: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+04:00:54.620: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:00:54.620: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:05:54.623: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:05:54.625: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+04:10:54.624: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:10:54.624: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:15:54.628: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:15:54.628: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:20:54.629: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:20:54.632: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+04:25:54.630: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:25:54.633: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+04:30:54.631: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:30:54.631: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:35:54.636: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:35:54.637: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+04:40:54.636: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:40:54.636: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:45:54.633: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:45:54.633: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:50:54.635: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:50:54.635: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+04:55:54.639: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+04:55:54.639: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:00:54.637: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:00:54.638: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:05:54.640: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:05:54.641: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:10:54.661: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:10:54.661: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:15:54.690: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:15:54.690: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:20:54.724: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:20:54.724: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:25:54.754: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:25:54.754: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:30:54.787: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:30:54.791: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+05:35:54.819: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:35:54.823: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+05:40:54.849: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:40:54.852: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+05:45:54.879: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:45:54.880: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+05:50:54.912: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:50:54.912: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+05:55:54.944: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+05:55:54.946: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+05:56:51.011: (I) 11504:                     : mediaimporter::mediaimporter()          : Using 1 background workers
+05:56:52.699: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 34 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/Mr.bond - Shlomo.ia.mp4"
+05:56:52.760: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 18662400 total count 9"
+05:56:52.760: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 20736000 total count 10"
+05:56:52.761: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 22809600 total count 11"
+05:56:54.795: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+05:56:54.796: (I) 20220: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+05:56:54.802: (I) 20220: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+05:56:54.802: (I) 20220: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+05:56:54.828: (I) 11504: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 33
+05:56:54.836: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+05:56:54.846: (I) 22976:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 44 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+05:56:54.865: (I) 21960:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609217814820 ms. Operation context: THUMBNAIL. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+05:56:54.895: (I) 22976:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 23 ms. Operation context: PLAY. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+05:56:56.806: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:56:56.807: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+05:57:00.032: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+05:57:00.120: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+05:57:12.122: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [00:15.376 (153761482)]slider: [00:15.332 (153328775)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+05:57:12.123: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+05:57:12.149: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+05:57:12.258: (I) 22976:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 12"
+05:57:13.356: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+05:57:16.217: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+05:57:17.091: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:06.175 (61750000)]slider: [00:06.175 (61750000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:57:17.091: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+05:57:18.857: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [00:07.929 (79299764)]slider: [00:07.903 (79037473)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+05:57:18.861: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+05:57:19.015: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:07.874 (78749983)]slider: [00:07.874 (78749983)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+05:57:19.015: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+05:57:19.908: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+05:57:20.060: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:00:40.832: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [03:26.757 (2067576866)]slider: [03:26.715 (2067150200)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+06:00:40.838: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:00:40.911: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+06:00:42.744: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:00:42.803: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+06:00:42.925: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:00:43.025: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+06:00:43.927: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:00:50.267: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:00:50.831: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:00:50.902: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:00:51.459: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:00:51.600: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:00:52.033: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [02:10.697 (1306970000)]slider: [02:10.697 (1306970000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+06:00:52.034: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:00:59.807: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:18.457 (1384571546)]slider: [02:18.409 (1384093213)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+06:00:59.811: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:01:01.169: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:01:11.541: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:01:12.646: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:01:12.694: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+06:01:23.245: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:01:23.535: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [01:13.967 (739670000)]slider: [01:13.967 (739670000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+06:01:23.535: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:01:28.719: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:01:29.329: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:01:31.640: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:01:44.400: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:01:46.834: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [00:08.697 (86971423)]slider: [00:08.642 (86429132)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+06:01:46.837: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:01:47.657: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:01:47.803: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:01:48.132: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [00:06.432 (64320000)]slider: [00:06.432 (64320000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+06:01:48.132: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:01:49.414: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:01:49.571: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:02:02.594: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:02:14.748: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:02:14.751: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:00.663 (1206630000)]slider: [02:00.663 (1206630000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+06:02:14.752: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:02:14.854: (I) 12372:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+06:02:15.180: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+06:02:15.412: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:02:15.583: (I) 11504: ui.player           : Player::onPlay()                        : Play: clk: [01:38.408 (984080000)]slider: [01:38.408 (984080000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+06:02:15.583: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+06:02:37.895: (I) 11504: ui.player           : Player::onPause()                       : Pause: clk: [02:00.704 (1207044027)]slider: [02:00.656 (1206561528)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+06:02:37.896: (W) 11504:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+06:02:39.830: (I) 11504: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+06:02:39.830: (I) 11504: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+06:02:39.847: (I) 11504: ui.player           : Player::~Player                         : Entering 'Delete player'
+06:02:39.889: (I) 11504: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 42
+06:02:39.939: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+06:02:39.941: (I) 11504: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+06:02:39.941: (I) 11504:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+06:02:49.946: (I) 11504:                     : MetricSender::waitForSendAllImpl()      : Wait send metrics timeout reached. Unprocessed itemds: 1
+06:02:50.309: (I) 11504:                     : Application::~Application()             : App finished normally
+06:02:50.312: (I) 11504: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

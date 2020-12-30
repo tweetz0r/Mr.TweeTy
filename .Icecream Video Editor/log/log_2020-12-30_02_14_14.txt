@@ -1,0 +1,330 @@
+
+
+------------------------------------------------------------
+Application started
+02:14:14.237: (I) 18960: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+02:14:14.237: (I) 18960: ice.systeminfo      : Kernel version: "10.0.19042"
+02:14:14.237: (I) 18960: ice.systeminfo      : CPU architecture: "x86_64"
+02:14:14.237: (I) 18960: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+02:14:14.237: (I) 18960: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+02:14:14.237: (I) 18960: ice.systeminfo      : BuildVersion: "2.3.4"
+02:14:14.238: (I) 18960: ice.systeminfo      : DisplayVersion: "2.34"
+02:14:14.238: (I) 18960: ice.systeminfo      : PID: 7368
+02:14:14.238: (I) 18960: ice.systeminfo      : Main thread id: 18960
+02:14:14.238: (I) 18960: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+02:14:14.238: (I) 18960: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+02:14:14.238: (I) 18960: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+02:14:14.239: (I) 18960: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+02:14:14.239: (I) 18960: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+02:14:14.239: (I) 18960: ice.systeminfo      : 
+02:14:14.245: (I) 18960: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+02:14:14.250: (I) 18960: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+02:14:14.258: (I) 18960: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+02:14:14.259: (I) 18960: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+02:14:14.725: (I) 18960: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+02:14:15.097: (I) 18960: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 372 msec
+02:14:15.097: (I) 18960: app.app             : Application::init                       : Entering 'Init app'
+02:14:15.355: (I) 18960: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+02:14:15.365: (I) 18960: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+02:14:15.365: (I) 18960: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+02:14:15.365: (I) 18960: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+02:14:15.377: (I) 18960: ui.player           : Player::Player                          :     Entering 'Create player'
+02:14:15.464: (I) 18960:                     : Player::Player()                        :       Create preview DX device:  "NVIDIA GeForce GTX 1070"
+02:14:15.559: (I) 18960:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+02:14:15.559: (I) 18960:                     : Player::Player()                        :       Create mediaprocessor DX device:  "NVIDIA GeForce GTX 1070"
+02:14:15.559: (I) 18960:                     : Player::Player()                        :       --- mediaprocessor context ---
+02:14:15.559: (I) 18960:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+02:14:15.559: (I) 18960:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+02:14:15.559: (I) 18960:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+02:14:15.560: (I) 18960:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+02:14:15.560: (I) 18960:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+02:14:15.995: (I) 18960:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+02:14:15.995: (I) 18960:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+02:14:15.995: (I) 18960:                     : audiorender::applySettingsFromSink()    :       		channel count: 6
+02:14:15.995: (I) 18960:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+02:14:15.995: (I) 18960:                     : audiorender::applySettingsFromSink()    :       		channel mask: 63
+02:14:15.995: (I) 18960:                     : audiorender::applySettingsFromSink()    :       		block size: 24
+02:14:16.010: (I) 18960: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 633
+02:14:16.092: (I) 18960:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+02:14:16.215: (I) 18960: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(290,83 1400x865)
+02:14:16.215: (I) 18960: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 850
+02:14:16.245: (I) 18960:                     : LicenseService::loadLicenseInfo()       :   License file found [OK]
+02:14:16.245: (W) 18960:                     : LicenseService::loadLicenseInfo()       :   Loading license file [FAILED]: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+02:14:16.245: (W) 18960:                     : LicenseService::isActivated()           :   License file corrupted. Input argument error: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+02:14:16.245: (I) 18960: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 1148
+02:14:16.245: (I) 18960: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+02:14:16.245: (I) 18960: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+02:14:16.245: (I) 18960: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/Mr.TweeTy/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+02:14:16.249: (I) 18960: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+02:14:16.254: (I) 12596: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+02:14:16.258: (I) 12596: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 4
+02:14:16.264: (I) 18960: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+02:14:16.264: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+02:14:16.264: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+02:14:16.264: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+02:14:16.264: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+02:14:16.265: (I) 18960:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(My project 1, {5222d21f-c5...)
+02:14:16.265: (I) 18960:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+02:14:16.265: (I) 18960:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+02:14:16.265: (I) 18960:                     : mediaprocessor::setDocument()           :       Process setDocument()
+02:14:16.265: (I) 18960:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+02:14:16.265: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+02:14:16.266: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+02:14:16.266: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+02:14:16.266: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+02:14:16.266: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+02:14:16.267: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+02:14:16.267: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 1
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+02:14:16.267: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+02:14:16.268: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+02:14:16.268: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+02:14:16.268: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 1
+02:14:16.268: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+02:14:16.268: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+02:14:16.268: (I) 18960: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+02:14:16.268: (I) 18960: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 19
+02:14:16.268: (I) 18960: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 23
+02:14:16.268: (I)  1624:                     : main::lambda()                          : run preview cache storage check...
+02:14:16.268: (I)  1624:                     : main::lambda()                          : preview cache storage check done
+02:14:16.354: (I)  5108:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 89 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+02:14:16.368: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+02:14:16.372: (I) 18960: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+02:14:16.372: (I) 18960: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x1f7ae4add40, name="MainWindow")
+02:14:16.406: (I)  5108:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 2073600 total count 1"
+02:14:16.407: (I)  5108:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4147200 total count 2"
+02:14:16.407: (I)  5108:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6220800 total count 3"
+02:14:16.430: (I)  5108:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+02:14:16.525: (I) 18960: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+02:14:16.525: (I) 18960: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+02:14:16.526: (I) 18960: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+02:14:16.526: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/INONS.mp4"
+02:14:16.534: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20200929-222740.mp4"
+02:14:16.535: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201007-142603.mp4"
+02:14:16.536: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/stuff.mp4"
+02:14:16.537: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/gubbie.mp4"
+02:14:16.550: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/huute.mp4"
+02:14:16.551: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/Die grossen Reden Adolf Hitlers-Teil.1.avi"
+02:14:16.555: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-09_18-19-44.mp4"
+02:14:16.559: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Die  Juden.mp4"
+02:14:16.562: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/1607591704701_Trim.mp4"
+02:14:16.566: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/youtube_com_Adolf_Hitler_talks_about_the_Jews_and_the_Allies_YouTube-xG5TiS6qVOU.mp4"
+02:14:16.567: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/15989d92919701.mp4"
+02:14:16.567: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201008-023054.mp4"
+02:14:16.568: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-12_01-48-06.mp4"
+02:14:16.576: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/asasasas.mp4"
+02:14:16.577: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201207-133620.mp4"
+02:14:21.240: (I) 18960: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.34&pid=9&mh=e38b5542883de74679b36f776e0f3122&h=829e3b7ad3ecea3402a861ef17593798"
+02:14:21.470: (I) 18960: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.34"
+02:14:21.470: (I) 18960: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.34" current version: 2.34 result: 0
+02:14:23.674: (I)  3708:                     : main::lambda()                          : Dxdiag tool completed with status : QProcess::ExitStatus(NormalExit) . Exit code:  0 . Error code:  QProcess::ProcessError(UnknownError)
+02:14:39.762: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-16-18.mp4"
+02:14:39.763: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-29-26.mp4"
+02:14:39.763: (W) 18960: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+02:15:31.786: (I) 20132:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:15:31.842: (I) 22916:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609290931797 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:15:33.785: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+02:15:33.785: (I) 20132: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+02:15:33.791: (I) 20132: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+02:15:33.791: (I) 20132: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 6
+02:15:33.807: (I)  5108:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 15 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:15:33.809: (I) 18868:                     : mfreaderaudio::open()                   :   open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:15:33.818: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 33
+02:15:33.834: (I) 14920:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609290933807 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:15:33.847: (I)  5108:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 23 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:15:36.397: (I) 18960: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:16:06.093: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [00:02.042 (20424343)]slider: [00:02.020 (20208302)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+02:16:06.095: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:16:06.096: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:16:06.096: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:16:06.099: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_General, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:16:06.151: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:16:06.214: (I)  5108:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 4"
+02:16:10.843: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Audio, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:16:13.877: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:16:14.901: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:16:15.566: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:16:16.017: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:16:18.962: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Filters, prev Prop_General, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:16:23.196: (I) 18960: ui.player           : Player::onPlay()                        : Play: clk: [00:01.999 (19999980)]slider: [00:01.999 (19999980)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:16:23.196: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:16:27.554: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:16:29.924: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:16:31.707: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:16:38.495: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:16:56.196: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:16:57.623: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:00.658: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:01.391: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:01.767: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:02.100: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:02.527: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:27.454: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:32.597: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:33.358: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:39.396: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:40.111: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:44.349: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:45.023: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:49.859: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:17:50.346: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:18:14.330: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:48.437 (1084379782)]slider: [01:48.403 (1084039366)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+02:18:14.333: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:14.335: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_Filters, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:18:15.118: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:18:15.119: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:15.174: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:18:15.739: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:48.386 (1083861375)]slider: [01:48.386 (1083861375)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:18:15.739: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:15.739: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:48.386 (1083861375)]slider: [01:48.386 (1083861375)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:18:15.739: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:15.743: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:18:15.743: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:15.743: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:15.744: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_Audio, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:18:15.756: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:18:15.772: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:18:18.340: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:19.303: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+02:18:19.405: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:18:20.898: (I) 18960: ui.player           : Player::onPlay()                        : Play: clk: [01:05.129 (651290000)]slider: [01:05.129 (651290000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:18:20.898: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:18:38.234: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:18:41.335: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:18:52.480: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:18:57.961: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:28.133 (881334355)]slider: [01:28.094 (880941647)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+02:18:57.962: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:02.170: (I) 18960: ui.player           : Player::onPlay()                        : Play: clk: [01:28.072 (880723321)]slider: [01:28.072 (880723321)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:19:02.171: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:19:06.609: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:19:21.282: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:19:22.536: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:21.516 (815163250)]slider: [01:21.497 (814973876)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+02:19:22.541: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:22.542: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Audio, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:23.642: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:23.642: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:23.726: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:25.841: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:21.492 (814924714)]slider: [01:21.492 (814924714)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:19:25.842: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:25.842: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:21.492 (814924714)]slider: [01:21.492 (814924714)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:19:25.843: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:25.858: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:25.859: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:25.859: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:25.860: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_General, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:25.899: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:27.354: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:27.356: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:27.407: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:27.757: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:21.492 (814924714)]slider: [01:21.492 (814924714)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:19:27.757: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:27.758: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [01:21.492 (814924714)]slider: [01:21.492 (814924714)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:19:27.758: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:27.777: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:27.778: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:27.778: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:27.782: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_Crop, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:27.822: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:27.876: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:28.866: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:28.866: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:28.916: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:31.198: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:31.198: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:31.198: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:31.199: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Audio, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:31.242: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:34.424: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_General, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:35.373: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:35.374: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:35.389: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:36.561: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:36.561: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:36.561: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:36.562: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Filters, prev Prop_Audio, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:36.613: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:19:38.137: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Text, prev Prop_Filters, docClip {ab940db9-8b8b-4992-8467-cd91df49280c}
+02:19:44.237: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.266: (I) 18960: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:19:46.280: (I) 18960: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 14
+02:19:46.606: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.607: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.608: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.613: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.686: (I)  5108:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 10368000 total count 5"
+02:19:46.728: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.729: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.791: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:46.792: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:47.016: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:47.017: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:50.648: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:50.649: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:50.679: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:50.680: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:50.809: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:50.810: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.009: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.010: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.015: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.016: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.105: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.106: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.264: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.265: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.296: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:51.296: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:54.550: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:54.551: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:55.456: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {ab940db9-8b8b-4992-8467-cd91df49280c} )
+02:19:55.456: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:19:55.500: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:02.070: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:03.867: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:20:03.867: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:20:03.867: (I) 18960: ui.player           : Player::onPause()                       : Pause: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:20:03.868: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:20:03.927: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:37.824: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 1'
+02:20:37.824: (I) 16500: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+02:20:37.833: (I) 16500: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+02:20:37.833: (I) 16500: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 9
+02:20:37.835: (I) 18960: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 1'. Elapsed time: 11
+02:20:37.862: (I)  5108:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 16 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:37.870: (I) 15804:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609291237852 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:37.900: (I)  5108:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:45.420: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {b430100d-ae1d-484f-916e-58cf0be98ef2} )
+02:20:45.421: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:20:45.421: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:20:45.423: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Text, docClip {b430100d-ae1d-484f-916e-58cf0be98ef2}
+02:20:45.459: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:49.492: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_General, docClip {b430100d-ae1d-484f-916e-58cf0be98ef2}
+02:20:53.226: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:20:54.832: (I) 18960: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {b430100d-ae1d-484f-916e-58cf0be98ef2} )
+02:20:54.832: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+02:20:54.853: (I) 18868:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/UNAVERAGE GANG - SING, YOU SINNERS(1).mp4"
+02:20:56.987: (I) 18960: ui.player           : Player::onPlay()                        : Play: clk: [02:36.944 (1569440000)]slider: [02:36.944 (1569440000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+02:20:56.988: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:20:59.869: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Scrubbing)
+02:20:59.992: (W) 18960:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Playing)
+02:21:04.371: (I) 18960: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+02:21:04.371: (I) 18960: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+02:21:04.382: (I) 18960: ui.player           : Player::~Player                         : Entering 'Delete player'
+02:21:04.452: (I) 18960: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 70
+02:21:04.499: (I) 18960: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+02:21:04.502: (I) 18960: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+02:21:04.502: (I) 18960:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+02:21:05.655: (I) 18960:                     : MetricSender::waitForSendAllImpl()      : Metrics was sent in 1153 msec
+02:21:06.034: (I) 18960:                     : Application::~Application()             : App finished normally
+02:21:06.040: (I) 18960: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

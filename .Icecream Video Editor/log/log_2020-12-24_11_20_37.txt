@@ -1,0 +1,533 @@
+
+
+------------------------------------------------------------
+Application started
+11:20:37.606: (I)  4760: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+11:20:37.606: (I)  4760: ice.systeminfo      : Kernel version: "10.0.19042"
+11:20:37.606: (I)  4760: ice.systeminfo      : CPU architecture: "x86_64"
+11:20:37.606: (I)  4760: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+11:20:37.606: (I)  4760: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+11:20:37.606: (I)  4760: ice.systeminfo      : BuildVersion: "2.3.4"
+11:20:37.607: (I)  4760: ice.systeminfo      : DisplayVersion: "2.34"
+11:20:37.607: (I)  4760: ice.systeminfo      : PID: 3588
+11:20:37.607: (I)  4760: ice.systeminfo      : Main thread id: 4760
+11:20:37.607: (I)  4760: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+11:20:37.607: (I)  4760: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+11:20:37.607: (I)  4760: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+11:20:37.607: (I)  4760: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+11:20:37.607: (I)  4760: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+11:20:37.607: (I)  4760: ice.systeminfo      : 
+11:20:37.609: (I)  4760: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+11:20:37.611: (I)  4760: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+11:20:37.611: (I)  4760: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+11:20:37.611: (I)  4760: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+11:20:38.155: (I)  4760: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+11:20:38.507: (I)  4760: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 352 msec
+11:20:38.507: (I)  4760: app.app             : Application::init                       : Entering 'Init app'
+11:20:38.715: (I)  4760: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+11:20:38.725: (I)  4760: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+11:20:38.726: (I)  4760: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+11:20:38.726: (I)  4760: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+11:20:38.731: (I)  4760: ui.player           : Player::Player                          :     Entering 'Create player'
+11:20:38.811: (I)  4760:                     : Player::Player()                        :       Create preview DX device:  "NVIDIA GeForce GTX 1070"
+11:20:38.908: (I)  4760:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+11:20:38.908: (I)  4760:                     : Player::Player()                        :       Create mediaprocessor DX device:  "NVIDIA GeForce GTX 1070"
+11:20:38.908: (I)  4760:                     : Player::Player()                        :       --- mediaprocessor context ---
+11:20:38.908: (I)  4760:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+11:20:38.908: (I)  4760:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+11:20:38.908: (I)  4760:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+11:20:38.908: (I)  4760:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+11:20:38.908: (I)  4760:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+11:20:39.372: (I)  4760:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+11:20:39.372: (I)  4760:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+11:20:39.372: (I)  4760:                     : audiorender::applySettingsFromSink()    :       		channel count: 6
+11:20:39.372: (I)  4760:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+11:20:39.372: (I)  4760:                     : audiorender::applySettingsFromSink()    :       		channel mask: 63
+11:20:39.372: (I)  4760:                     : audiorender::applySettingsFromSink()    :       		block size: 24
+11:20:39.381: (I)  4760: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 650
+11:20:39.450: (I)  4760:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+11:20:39.564: (I)  4760: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(290,83 1400x865)
+11:20:39.564: (I)  4760: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 838
+11:20:39.589: (I)  4760:                     : LicenseService::loadLicenseInfo()       :   License file found [OK]
+11:20:39.589: (W)  4760:                     : LicenseService::loadLicenseInfo()       :   Loading license file [FAILED]: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+11:20:39.589: (W)  4760:                     : LicenseService::isActivated()           :   License file corrupted. Input argument error: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+11:20:39.589: (I)  4760: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 1082
+11:20:39.589: (I)  4760: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+11:20:39.589: (I)  4760: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+11:20:39.589: (I)  4760: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/Mr.TweeTy/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+11:20:39.592: (I)  4760: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+11:20:39.598: (I) 16340: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+11:20:39.601: (I) 16340: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 3
+11:20:39.605: (I)  4760: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+11:20:39.605: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+11:20:39.605: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+11:20:39.606: (I)  4760:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(My project 1, {5222d21f-c5...)
+11:20:39.606: (I)  4760:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:20:39.606: (I)  4760:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:20:39.606: (I)  4760:                     : mediaprocessor::setDocument()           :       Process setDocument()
+11:20:39.606: (I)  4760:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+11:20:39.606: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+11:20:39.607: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+11:20:39.607: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+11:20:39.607: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 1
+11:20:39.607: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+11:20:39.607: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+11:20:39.607: (I)  4760: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+11:20:39.608: (I)  4760: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+11:20:39.608: (I)  4760: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 1
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 1
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+11:20:39.608: (I)  4760: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+11:20:39.608: (I)  4760: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 16
+11:20:39.608: (I)  4760: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 19
+11:20:39.669: (I)  6952:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 63 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+11:20:39.689: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 2073600 total count 1"
+11:20:39.690: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4147200 total count 2"
+11:20:39.690: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6220800 total count 3"
+11:20:39.701: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+11:20:39.711: (I)  6952:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+11:20:39.732: (I)  4760: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+11:20:39.732: (I)  4760: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x20cc62cf770, name="MainWindow")
+11:20:39.872: (I)  4760: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+11:20:39.872: (I)  4760: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+11:20:39.872: (I)  4760: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+11:20:44.586: (I)  4760: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.34&pid=9&mh=e38b5542883de74679b36f776e0f3122&h=829e3b7ad3ecea3402a861ef17593798"
+11:20:44.991: (I)  4760: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.34"
+11:20:44.992: (I)  4760: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.34" current version: 2.34 result: 0
+11:20:51.220: (I) 16340:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:51.381: (I) 20100:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1608805251331 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:52.644: (I)  4760: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+11:20:52.645: (I) 16340: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+11:20:52.652: (I) 16340: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+11:20:52.653: (I) 16340: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 8
+11:20:52.673: (I)  6952:                     : scrubbingservice::getReader()           :   "Reader succesfully opened in 19 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:52.683: (I)  4760: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 39
+11:20:52.700: (I) 15296:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1608805252672 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:52.717: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:52.732: (I)  6952:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 33 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:53.852: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:20:59.869: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:05.982 (59825116)]slider: [00:05.965 (59657825)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:20:59.899: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:20:59.944: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 4"
+11:21:03.663: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [00:01.983 (19830000)]slider: [00:01.983 (19830000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:05.318: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:03.627 (36273308)]slider: [00:03.599 (35991225)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:05.477: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [00:03.582 (35829984)]slider: [00:03.582 (35829984)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:05.648: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:03.713 (37130608)]slider: [00:03.684 (36844775)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:06.338: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [00:03.682 (36829983)]slider: [00:03.682 (36829983)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:07.246: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:04.578 (45783511)]slider: [00:04.563 (45630803)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:07.447: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [00:04.549 (45496641)]slider: [00:04.549 (45496641)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:08.850: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:05.932 (59329328)]slider: [00:05.890 (58903495)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:09.042: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [00:05.882 (58829961)]slider: [00:05.882 (58829961)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:33.263: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [02:22.573 (1425733280)]slider: [02:22.540 (1425400989)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:41.125: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:21:45.487: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:01.983 (19830000)]slider: [00:01.983 (19830000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:45.489: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:01.983 (19830000)]slider: [00:01.983 (19830000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:45.581: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:21:45.625: (I) 17376:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1608805305582 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:21:51.674: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Begin export
+11:21:51.674: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:21:51.677: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+11:21:58.788: (I)  4760: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+11:21:58.834: (I) 10300:                     : threadProc()                            : Encoder thread id:  10300
+11:21:58.835: (I) 10300:                     : threadProc()                            : --- start encoding thread ---
+11:21:58.916: (I) 10300:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+11:21:58.916: (I) 10300:                     : threadProc()                            : --- encoder context ---
+11:21:58.916: (I) 10300:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+11:21:58.916: (I) 10300:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+11:21:58.916: (I) 10300:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+11:21:58.916: (I) 10300:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+11:21:58.916: (I) 10300:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+11:21:58.916: (I) 10300:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:21:58.916: (I) 10300:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:21:58.916: (I) 10300:                     : mediaprocessor::setDocument()           : Process setDocument()
+11:21:58.916: (I) 10300:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+11:21:58.916: (I) 10300:                     : threadProc()                            : encoding mediaprocessor init done
+11:21:58.916: (I) 10300:                     : threadProc()                            : output format:  mp4
+11:21:58.916: (I) 10300:                     : threadProc()                            : quality:  1
+11:21:58.916: (I) 10300:                     : threadProc()                            : frame size:  "1920x1080"
+11:21:58.916: (I) 10300:                     : threadProc()                            : document duration:  1384970000
+11:21:58.916: (I) 10300:                     : threadProc()                            : clip count:  1
+11:21:58.916: (W) 10300:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:21:58.916: (I) 10300:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\how rude.mp4"
+11:21:58.916: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:21:58.967: (I)  4068:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 51 ms. Operation context: ENCODING. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:21:58.976: (I) 10300:                     : threadProc()                            : --- encoding parameters ---
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : use MF encoder
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : width:  1920
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : height:  1080
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : fps:  30
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : use hw:  true
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : sample rate:  48000
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : channels num:  2
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : channels mask:  3
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : audio format:  0
+11:21:58.976: (I) 10300:                     : mfencoder::dumpSettings()               : bits per sample:  16
+11:21:58.976: (I) 10300:                     : threadProc()                            : profile:  0
+11:21:58.989: (I) 10480:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:21:58.997: (I)  4068:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+11:21:58.997: (I)  4068:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+11:21:58.998: (I)  4068:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+11:21:59.304: (I) 10300:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+11:21:59.309: (I) 10300:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+11:21:59.312: (I) 10300:                     : threadProc()                            : encoder opened
+11:22:49.915: (I) 10300:                     : threadProc()                            : encoder closed
+11:22:49.972: (I) 10300:                     : threadProc()                            : shutdown encoding mediaprocessor
+11:22:49.987: (I) 10300:                     : threadProc()                            : checking encoding result...
+11:22:49.987: (I)  4760: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+11:22:50.007: (W) 10300:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:22:50.007: (I) 10300:                     : threadProc()                            : encoding done
+11:22:51.458: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+11:22:56.895: (W)  6952:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{3265e8cf-9ad7-49e2-825f-1eb85c31d63d}"
+11:22:56.927: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:22:56.927: (I)  6952:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 31 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:22:56.955: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 10368000 total count 5"
+11:22:56.955: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 12441600 total count 6"
+11:22:56.955: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 14515200 total count 7"
+11:22:56.981: (I)  6952:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:22:57.007: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 8"
+11:23:01.633: (I)  4760: ui.player           : Player::onPlay()                        : Play from start: clk: [04:04.599 (2445990000)]slider: [04:04.599 (2445990000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:23:03.057: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [02:19.591 (1395912484)]slider: [02:19.576 (1395768734)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:23:03.236: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [02:19.562 (1395626656)]slider: [02:19.562 (1395626656)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:24:31.728: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:38.314 (2783140000)]slider: [04:38.314 (2783140000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:24:36.594: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [03:32.206 (2122060000)]slider: [03:32.206 (2122060000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:25:38.396: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:36.868 (2768680130)]slider: [04:36.841 (2768410755)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:25:44.624: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:36.331 (2763310000)]slider: [04:36.331 (2763310000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:25:44.626: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:36.331 (2763310000)]slider: [04:36.331 (2763310000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:25:44.772: (I) 14112:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1608805544718 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:25:47.213: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Begin export
+11:25:47.214: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:25:47.223: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 9
+11:25:52.306: (I)  4760: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+11:25:52.317: (I)  9476:                     : threadProc()                            : Encoder thread id:  9476
+11:25:52.317: (I)  9476:                     : threadProc()                            : --- start encoding thread ---
+11:25:52.409: (I)  9476:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+11:25:52.409: (I)  9476:                     : threadProc()                            : --- encoder context ---
+11:25:52.409: (I)  9476:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+11:25:52.409: (I)  9476:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+11:25:52.409: (I)  9476:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+11:25:52.409: (I)  9476:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+11:25:52.410: (I)  9476:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+11:25:52.410: (I)  9476:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:25:52.410: (I)  9476:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:25:52.410: (I)  9476:                     : mediaprocessor::setDocument()           : Process setDocument()
+11:25:52.410: (I)  9476:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+11:25:52.410: (I)  9476:                     : threadProc()                            : encoding mediaprocessor init done
+11:25:52.410: (I)  9476:                     : threadProc()                            : output format:  mp4
+11:25:52.410: (I)  9476:                     : threadProc()                            : quality:  1
+11:25:52.410: (I)  9476:                     : threadProc()                            : frame size:  "1920x1080"
+11:25:52.410: (I)  9476:                     : threadProc()                            : document duration:  1378360000
+11:25:52.410: (I)  9476:                     : threadProc()                            : clip count:  1
+11:25:52.410: (W)  9476:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:25:52.410: (I)  9476:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\rabbi2.mp4"
+11:25:52.410: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [ (-6610000)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:25:52.461: (I) 12080:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 51 ms. Operation context: ENCODING. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:25:52.466: (I)  9476:                     : threadProc()                            : --- encoding parameters ---
+11:25:52.466: (I)  9476:                     : mfencoder::dumpSettings()               : use MF encoder
+11:25:52.466: (I)  9476:                     : mfencoder::dumpSettings()               : width:  1920
+11:25:52.466: (I)  9476:                     : mfencoder::dumpSettings()               : height:  1080
+11:25:52.466: (I)  9476:                     : mfencoder::dumpSettings()               : fps:  30
+11:25:52.466: (I)  9476:                     : mfencoder::dumpSettings()               : use hw:  true
+11:25:52.466: (I)  9476:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+11:25:52.467: (I)  9476:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+11:25:52.467: (I)  9476:                     : mfencoder::dumpSettings()               : sample rate:  48000
+11:25:52.467: (I)  9476:                     : mfencoder::dumpSettings()               : channels num:  2
+11:25:52.467: (I)  9476:                     : mfencoder::dumpSettings()               : channels mask:  3
+11:25:52.467: (I)  9476:                     : mfencoder::dumpSettings()               : audio format:  0
+11:25:52.467: (I)  9476:                     : mfencoder::dumpSettings()               : bits per sample:  16
+11:25:52.467: (I)  9476:                     : threadProc()                            : profile:  0
+11:25:52.480: (I) 12136:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:25:52.490: (I) 12080:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+11:25:52.491: (I) 12080:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+11:25:52.491: (I) 12080:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+11:25:52.730: (I)  9476:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+11:25:52.731: (I)  9476:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+11:25:52.732: (I)  9476:                     : threadProc()                            : encoder opened
+11:26:46.069: (I)  9476:                     : threadProc()                            : encoder closed
+11:26:46.113: (I)  9476:                     : threadProc()                            : shutdown encoding mediaprocessor
+11:26:46.119: (I)  9476:                     : threadProc()                            : checking encoding result...
+11:26:46.119: (I)  4760: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+11:26:46.156: (W)  9476:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:26:46.156: (I)  9476:                     : threadProc()                            : encoding done
+11:26:47.105: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+11:26:58.506: (I)  6952:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 110 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:26:58.521: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:26:58.547: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 18662400 total count 9"
+11:26:58.548: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 20736000 total count 10"
+11:26:58.548: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 22809600 total count 11"
+11:26:58.586: (I)  6952:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 32 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:26:58.618: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 12"
+11:27:12.422: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [02:17.835 (1378350000)]slider: [02:17.835 (1378350000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:08.526: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:36.695 (2766952654)]slider: [04:36.651 (2766516196)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:26.338: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [04:30.050 (2700500000)]slider: [04:30.050 (2700500000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:33.650: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:37.349 (2773491136)]slider: [04:37.306 (2773061345)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:37.946: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:37.322 (2773220000)]slider: [04:37.322 (2773220000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:37.947: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:12.862 (2528629999)]slider: [04:12.862 (2528620000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:38.001: (I) 17464:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1608805717967 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:28:38.005: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:28:39.528: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Begin export
+11:28:39.529: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:28:39.543: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 14
+11:28:44.186: (I)  4760: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+11:28:44.198: (I)  4716:                     : threadProc()                            : Encoder thread id:  4716
+11:28:44.198: (I)  4716:                     : threadProc()                            : --- start encoding thread ---
+11:28:44.294: (I)  4716:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+11:28:44.294: (I)  4716:                     : threadProc()                            : --- encoder context ---
+11:28:44.294: (I)  4716:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+11:28:44.294: (I)  4716:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+11:28:44.294: (I)  4716:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+11:28:44.294: (I)  4716:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+11:28:44.294: (I)  4716:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+11:28:44.294: (I)  4716:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:28:44.294: (I)  4716:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:28:44.294: (I)  4716:                     : mediaprocessor::setDocument()           : Process setDocument()
+11:28:44.294: (I)  4716:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+11:28:44.294: (I)  4716:                     : threadProc()                            : encoding mediaprocessor init done
+11:28:44.294: (I)  4716:                     : threadProc()                            : output format:  mp4
+11:28:44.294: (I)  4716:                     : threadProc()                            : quality:  1
+11:28:44.294: (I)  4716:                     : threadProc()                            : frame size:  "1920x1080"
+11:28:44.294: (I)  4716:                     : threadProc()                            : document duration:  1394880000
+11:28:44.295: (I)  4716:                     : threadProc()                            : clip count:  1
+11:28:44.295: (W)  4716:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:28:44.295: (I)  4716:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\rabbi3.mp4"
+11:28:44.295: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:01.652 (16520000)]slider: [00:01.652 (16520000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:28:44.343: (I) 15364:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 49 ms. Operation context: ENCODING. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:28:44.353: (I)  4716:                     : threadProc()                            : --- encoding parameters ---
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : use MF encoder
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : width:  1920
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : height:  1080
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : fps:  30
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : use hw:  true
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+11:28:44.353: (I)  4716:                     : mfencoder::dumpSettings()               : sample rate:  48000
+11:28:44.354: (I)  4716:                     : mfencoder::dumpSettings()               : channels num:  2
+11:28:44.354: (I)  4716:                     : mfencoder::dumpSettings()               : channels mask:  3
+11:28:44.354: (I)  4716:                     : mfencoder::dumpSettings()               : audio format:  0
+11:28:44.354: (I)  4716:                     : mfencoder::dumpSettings()               : bits per sample:  16
+11:28:44.354: (I)  4716:                     : threadProc()                            : profile:  0
+11:28:44.357: (I) 15364:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+11:28:44.357: (I) 15364:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+11:28:44.358: (I) 15364:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+11:28:44.366: (I)  3180:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:28:44.541: (I)  4716:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+11:28:44.543: (I)  4716:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+11:28:44.543: (I)  4716:                     : threadProc()                            : encoder opened
+11:29:38.939: (I)  4716:                     : threadProc()                            : encoder closed
+11:29:39.046: (I)  4716:                     : threadProc()                            : shutdown encoding mediaprocessor
+11:29:39.112: (I)  4716:                     : threadProc()                            : checking encoding result...
+11:29:39.113: (I)  4760: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+11:29:39.129: (W)  4716:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:29:39.129: (I)  4716:                     : threadProc()                            : encoding done
+11:29:54.255: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+11:29:55.594: (W)  6952:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{3265e8cf-9ad7-49e2-825f-1eb85c31d63d}"
+11:29:55.611: (I)  6952:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 16 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:29:55.631: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 26956800 total count 13"
+11:29:55.631: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 29030400 total count 14"
+11:29:55.631: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 31104000 total count 15"
+11:29:55.640: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:29:55.655: (I)  6952:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 18 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:29:55.675: (I)  6952:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 33177600 total count 16"
+11:30:00.733: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [04:12.862 (2528620000)]slider: [04:12.862 (2528620000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:30:00.734: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [01:53.375 (1133759999)]slider: [01:53.375 (1133750000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:30:00.758: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:30:00.793: (I)  4600:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1608805800755 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:30:03.219: (I)  4760: ui.player           : Player::onPlay()                        : Play: clk: [ (-261120000)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:30:03.814: (I) 15796:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:30:08.441: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:01.535 (15357685)]slider: [00:01.512 (15128518)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+11:30:09.290: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Begin export
+11:30:09.290: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:30:09.296: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 6
+11:30:15.005: (I)  4760: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+11:30:15.017: (I)  8636:                     : threadProc()                            : Encoder thread id:  8636
+11:30:15.017: (I)  8636:                     : threadProc()                            : --- start encoding thread ---
+11:30:15.172: (I)  8636:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+11:30:15.172: (I)  8636:                     : threadProc()                            : --- encoder context ---
+11:30:15.172: (I)  8636:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+11:30:15.172: (I)  8636:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+11:30:15.172: (I)  8636:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+11:30:15.172: (I)  8636:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+11:30:15.172: (I)  8636:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+11:30:15.172: (I)  8636:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:30:15.172: (I)  8636:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+11:30:15.172: (I)  8636:                     : mediaprocessor::setDocument()           : Process setDocument()
+11:30:15.172: (I)  8636:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+11:30:15.172: (I)  8636:                     : threadProc()                            : encoding mediaprocessor init done
+11:30:15.172: (I)  8636:                     : threadProc()                            : output format:  mp4
+11:30:15.172: (I)  8636:                     : threadProc()                            : quality:  1
+11:30:15.172: (I)  8636:                     : threadProc()                            : frame size:  "1920x1080"
+11:30:15.172: (I)  8636:                     : threadProc()                            : document duration:  1133760000
+11:30:15.172: (I)  8636:                     : threadProc()                            : clip count:  1
+11:30:15.172: (W)  8636:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:30:15.172: (I)  8636:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\rabbi4.mp4"
+11:30:15.172: (I)  4760: ui.player           : Player::onPause()                       : Pause: clk: [00:01.499 (14999985)]slider: [00:01.499 (14999985)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+11:30:15.226: (I) 19912:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 54 ms. Operation context: ENCODING. File path: C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:30:15.233: (I)  8636:                     : threadProc()                            : --- encoding parameters ---
+11:30:15.233: (I)  8636:                     : mfencoder::dumpSettings()               : use MF encoder
+11:30:15.233: (I)  8636:                     : mfencoder::dumpSettings()               : width:  1920
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : height:  1080
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : fps:  30
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : use hw:  true
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : sample rate:  48000
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : channels num:  2
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : channels mask:  3
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : audio format:  0
+11:30:15.234: (I)  8636:                     : mfencoder::dumpSettings()               : bits per sample:  16
+11:30:15.234: (I)  8636:                     : threadProc()                            : profile:  0
+11:30:15.247: (I) 13092:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Pictures/22224811_2090401500985653_7593900254076862464_n.mp4"
+11:30:15.265: (I) 19912:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+11:30:15.266: (I) 19912:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+11:30:15.266: (I) 19912:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+11:30:15.623: (I)  8636:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+11:30:15.624: (I)  8636:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+11:30:15.625: (I)  8636:                     : threadProc()                            : encoder opened
+11:31:01.105: (I)  8636:                     : threadProc()                            : encoder closed
+11:31:01.147: (I)  8636:                     : threadProc()                            : shutdown encoding mediaprocessor
+11:31:01.217: (I)  8636:                     : threadProc()                            : checking encoding result...
+11:31:01.217: (I)  4760: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+11:31:01.230: (W)  8636:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+11:31:01.231: (I)  8636:                     : threadProc()                            : encoding done
+11:31:17.836: (I)  4760: app.export          : Ui::exportCurrentDocument()             : Export cancelled by user
+11:36:17.824: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:36:17.827: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+11:41:17.829: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:41:17.830: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:46:17.826: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:46:17.827: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:51:17.830: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:51:17.831: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+11:56:17.832: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+11:56:17.835: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+12:01:17.832: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:01:17.833: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:06:17.834: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:06:17.837: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+12:11:17.832: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:11:17.833: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:16:17.835: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:16:17.835: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:21:17.839: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:21:17.842: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+12:26:17.836: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:26:17.839: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+12:31:17.837: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:31:17.837: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:36:17.839: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:36:17.840: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:41:17.840: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:41:17.841: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:46:17.841: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:46:17.842: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+12:51:17.841: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:51:17.842: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+12:56:17.841: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+12:56:17.842: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:01:17.847: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:01:17.847: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+13:06:17.846: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:06:17.848: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+13:11:17.846: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:11:17.847: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:16:17.847: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:16:17.850: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+13:21:17.850: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:21:17.851: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+13:26:17.848: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:26:17.848: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+13:31:17.849: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:31:17.850: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:36:17.852: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:36:17.856: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+13:41:17.851: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:41:17.852: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+13:46:17.855: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:46:17.859: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+13:51:17.853: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:51:17.855: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+13:56:17.856: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+13:56:17.859: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+14:01:17.857: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:01:17.860: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+14:06:17.860: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:06:17.862: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+14:11:17.859: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:11:17.864: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 5
+14:16:17.866: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:16:17.869: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+14:21:17.862: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:21:17.865: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+14:26:17.864: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:26:17.867: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+14:31:17.863: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:31:17.864: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:36:17.864: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:36:17.865: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:41:17.863: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:41:17.863: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+14:46:17.866: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:46:17.867: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+14:51:17.869: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:51:17.869: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+14:56:17.866: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+14:56:17.867: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:01:17.872: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:01:17.876: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+15:06:17.873: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:06:17.876: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+15:11:17.874: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:11:17.876: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+15:16:17.874: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:16:17.877: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+15:21:17.875: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:21:17.878: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+15:26:17.877: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:26:17.880: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+15:31:17.874: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:31:17.875: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:36:17.876: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:36:17.878: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+15:41:17.875: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:41:17.876: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:46:17.876: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:46:17.877: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:51:17.879: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:51:17.880: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+15:56:17.889: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+15:56:17.895: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 6
+16:01:17.923: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:01:17.925: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 2
+16:06:17.954: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:06:17.954: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 1
+16:11:17.990: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:11:17.994: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 4
+16:16:18.023: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:16:18.023: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+16:18:02.945: (I)  4760: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+16:18:02.945: (I)  4760: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+16:18:02.965: (I)  4760: ui.player           : Player::~Player                         : Entering 'Delete player'
+16:18:03.013: (I)  4760: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 48
+16:18:03.080: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+16:18:03.080: (I)  4760: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 0
+16:18:03.081: (I)  4760:                     : MetricSender::waitForSendAllImpl()      : Begin wait for send unsent metrics. Count: 1 timeout: 10000
+16:18:04.360: (I)  4760:                     : MetricSender::waitForSendAllImpl()      : Metrics was sent in 1279 msec
+16:18:04.600: (I)  4760:                     : Application::~Application()             : App finished normally
+16:18:04.603: (I)  4760: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

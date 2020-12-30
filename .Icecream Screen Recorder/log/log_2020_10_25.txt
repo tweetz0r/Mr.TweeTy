@@ -1,0 +1,6 @@
+[5.9.2][10 10.0.19041][9108][64bit][03:21:11] DEBUG: Audio volume 0
+[5.9.2][10 10.0.19041][9108][64bit][03:21:11] DEBUG: Audio volume 1
+[5.9.2][10 10.0.19041][9108][64bit][03:21:11] DEBUG: New session state =inactive
+[5.9.2][10 10.0.19041][9108][64bit][03:21:11] DEBUG: New session state =inactive
+[5.9.2][10 10.0.19041][9108][64bit][03:22:25] DEBUG: Device name:XSplitBroadcaster
+[5.9.2][10 10.0.19041][9108][64bit][03:22:25] DEBUG: CAMERA [AVALIBLE]

@@ -1,0 +1,301 @@
+
+
+------------------------------------------------------------
+Application started
+09:16:09.313: (I) 19048: ice.systeminfo      : OS version: "Windows 10 (10.0)"
+09:16:09.313: (I) 19048: ice.systeminfo      : Kernel version: "10.0.19042"
+09:16:09.313: (I) 19048: ice.systeminfo      : CPU architecture: "x86_64"
+09:16:09.313: (I) 19048: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+09:16:09.313: (I) 19048: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+09:16:09.313: (I) 19048: ice.systeminfo      : BuildVersion: "2.3.4"
+09:16:09.313: (I) 19048: ice.systeminfo      : DisplayVersion: "2.34"
+09:16:09.313: (I) 19048: ice.systeminfo      : PID: 19960
+09:16:09.313: (I) 19048: ice.systeminfo      : Main thread id: 19048
+09:16:09.313: (I) 19048: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+09:16:09.313: (I) 19048: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+09:16:09.313: (I) 19048: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+09:16:09.313: (I) 19048: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+09:16:09.313: (I) 19048: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 81.5973, log/phy: 118%, geometry: {x:0, y:0, w: 1920, h: 1080}, available: {x:0, y:0, w: 1920, h: 1040}
+09:16:09.313: (I) 19048: ice.systeminfo      : 
+09:16:09.314: (I) 19048: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+09:16:09.315: (I) 19048: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+09:16:09.315: (I) 19048: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+09:16:09.315: (I) 19048: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1920x1080)
+09:16:09.733: (I) 19048: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+09:16:10.068: (I) 19048: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 335 msec
+09:16:10.068: (I) 19048: app.app             : Application::init                       : Entering 'Init app'
+09:16:10.262: (I) 19048: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+09:16:10.272: (I) 19048: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+09:16:10.272: (I) 19048: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+09:16:10.272: (I) 19048: ui.mainwindow       : MainWindow::MainWindow                  :   Entering 'Create main window'
+09:16:10.275: (I) 19048: ui.player           : Player::Player                          :     Entering 'Create player'
+09:16:10.349: (I) 19048:                     : Player::Player()                        :       Create preview DX device:  "NVIDIA GeForce GTX 1070"
+09:16:10.436: (I) 19048:                     : mfvideohelper::checkCompatibility()     :       mfvideohelper compatibility checked successfully
+09:16:10.437: (I) 19048:                     : Player::Player()                        :       Create mediaprocessor DX device:  "NVIDIA GeForce GTX 1070"
+09:16:10.437: (I) 19048:                     : Player::Player()                        :       --- mediaprocessor context ---
+09:16:10.437: (I) 19048:                     : VideoProcessorContext::dumpContextState(:       DX11 device [type 1]: true
+09:16:10.437: (I) 19048:                     : VideoProcessorContext::dumpContextState(:       Effect processor:  true
+09:16:10.437: (I) 19048:                     : VideoProcessorContext::dumpContextState(:       Text processor:  true
+09:16:10.437: (I) 19048:                     : VideoProcessorContext::dumpContextState(:       Video manager:  true
+09:16:10.437: (I) 19048:                     : VideoProcessorContext::dumpContextState(:       Video processor:  true
+09:16:10.856: (I) 19048:                     : audiorender::applySettingsFromSink()    :       	setup audio parameters: 
+09:16:10.856: (I) 19048:                     : audiorender::applySettingsFromSink()    :       		bitrate: 48000
+09:16:10.856: (I) 19048:                     : audiorender::applySettingsFromSink()    :       		channel count: 6
+09:16:10.856: (I) 19048:                     : audiorender::applySettingsFromSink()    :       		bits per sample: 32
+09:16:10.857: (I) 19048:                     : audiorender::applySettingsFromSink()    :       		channel mask: 63
+09:16:10.857: (I) 19048:                     : audiorender::applySettingsFromSink()    :       		block size: 24
+09:16:10.863: (I) 19048: ui.player           : Player::Player                          :     Leaving 'Create player'. Elapsed time: 588
+09:16:10.926: (I) 19048:                     : mediaimporter::mediaimporter()          :     Using 4 background workers
+09:16:11.027: (I) 19048: ice.windowgeometry  : IceWindow::readState()                  :     Restored previously saved geometry: QRect(290,83 1400x865)
+09:16:11.027: (I) 19048: ui.mainwindow       : MainWindow::MainWindow                  :   Leaving 'Create main window'. Elapsed time: 755
+09:16:11.053: (I) 19048:                     : LicenseService::loadLicenseInfo()       :   License file found [OK]
+09:16:11.053: (W) 19048:                     : LicenseService::loadLicenseInfo()       :   Loading license file [FAILED]: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+09:16:11.053: (W) 19048:                     : LicenseService::isActivated()           :   License file corrupted. Input argument error: "C:\\Users\\Mr.TweeTy\\AppData\\Local\\Icecream\\Icecream Video Editor\\\u0000icense.lic"
+09:16:11.053: (I) 19048: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 985
+09:16:11.053: (I) 19048: app.app             : CommandLineParser::parseRunFromInstaller: Run from installer: false
+09:16:11.053: (I) 19048: app.app             : Application::restoreLastSession         : Entering 'Restore last session'
+09:16:11.053: (I) 19048: app.documentsstorage: DocumentsStorage::loadDocuments()       :   Load docs from: "C:/Users/Mr.TweeTy/AppData/Roaming/Icecream/Icecream Video Editor/documents_v2"
+09:16:11.055: (I) 19048: app.app             : Application::setCurrentDocument         :   Entering 'Change document'
+09:16:11.059: (I) 12644: app.app             : Application::setCurrentDocument::lambda(:     Entering 'Load new doc fufure'
+09:16:11.062: (I) 12644: app.app             : Application::setCurrentDocument::lambda(:     Leaving 'Load new doc fufure'. Elapsed time: 3
+09:16:11.066: (I) 19048: app.app             : Application::setCurrentDocument()       :     New document loaded. Notify documentChanged()
+09:16:11.066: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MainWindow'
+09:16:11.066: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocumentChanged()
+09:16:11.066: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocGraphicalDurationChanged()
+09:16:11.066: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocTotalDurationChanged()
+09:16:11.066: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MainWindow->onDocAspectRatioChanged()
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MainWindow'. Elapsed time: 1
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for PlayerWidget'
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocumentChanged()
+09:16:11.067: (I) 19048:                     : Player::onDocumentChanged()             :       Player about to change mediaprocessor doc:  Doc(My project 1, {5222d21f-c5...)
+09:16:11.067: (I) 19048:                     : mediaprocessor::setDocument()           :       Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+09:16:11.067: (I) 19048:                     : audioprocessor::setDocument()           :       audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+09:16:11.067: (I) 19048:                     : mediaprocessor::setDocument()           :       Process setDocument()
+09:16:11.067: (I) 19048:                     : mediaprocessor::setDocument()           :       Leave mediaprocessor setDocument()
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocGraphicalDurationChanged()
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocTotalDurationChanged()
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke PlayerWidget->onDocAspectRatioChanged()
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for PlayerWidget'. Elapsed time: 0
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for TimelineWidget'
+09:16:11.067: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocumentChanged()
+09:16:11.067: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Entering 'Timeline: document change'
+09:16:11.069: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged(:         Clips loaded
+09:16:11.069: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::onDocumentChanged :       Leaving 'Timeline: document change'. Elapsed time: 2
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocGraphicalDurationChanged()
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke TimelineWidget->onDocTotalDurationChanged()
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for TimelineWidget'. Elapsed time: 2
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for MyVideosLibrary'
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke MyVideosLibrary->onDocumentChanged()
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for MyVideosLibrary'. Elapsed time: 0
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for ClipPropertiesPage'
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocumentChanged()
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke ClipPropertiesPage->onDocAspectRatioChanged()
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for ClipPropertiesPage'. Elapsed time: 0
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Entering 'Change document for UndoHandler'
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:       Invoke UndoHandler->onDocumentChanged()
+09:16:11.069: (I) 19048: app.app             : IDocumentDependent::onAppDocumentChanged:     Leaving 'Change document for UndoHandler'. Elapsed time: 0
+09:16:11.069: (I) 19048: app.app             : Application::setCurrentDocument         :   Leaving 'Change document'. Elapsed time: 14
+09:16:11.069: (I) 19048: app.app             : Application::restoreLastSession         : Leaving 'Restore last session'. Elapsed time: 16
+09:16:11.116: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+09:16:11.144: (I) 21284:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 77 ms. Operation context: PREVIEW. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+09:16:11.157: (I) 21284:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 2073600 total count 1"
+09:16:11.157: (I) 21284:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 4147200 total count 2"
+09:16:11.157: (I) 21284:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 6220800 total count 3"
+09:16:11.188: (I) 21284:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 29 ms. Operation context: PLAY. File path: D:/kewle filmpjes/'UNBELIEVABLE' - EXTRATERRESTRIAL' BY KATY PERRY PARODY.mp4"
+09:16:11.632: (I) 19048: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+09:16:11.632: (I) 19048: ice.splash          : IceSplash::Private::onMinDurationReached: Main window already exists. Finish splash using MainWindow(0x188ba26c060, name="MainWindow")
+09:16:11.766: (I) 19048: ui.thumbcache       : Ui::thumbCache()                        : Simple cache limit: 10240 Mb
+09:16:11.766: (I) 19048: ui.thumbcache       : Ui::thumbCache()                        : Source cache limit: 102400 Mb
+09:16:11.766: (I) 19048: ui.thumbcache       : Ui::thumbCache()                        : Scaled cache limit: 51200 Mb
+09:16:11.767: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/INONS.mp4"
+09:16:11.775: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20200929-222740.mp4"
+09:16:11.775: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201007-142603.mp4"
+09:16:11.776: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/stuff.mp4"
+09:16:11.776: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/gubbie.mp4"
+09:16:11.780: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/huute.mp4"
+09:16:11.781: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/Die grossen Reden Adolf Hitlers-Teil.1.avi"
+09:16:11.783: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-09_18-19-44.mp4"
+09:16:11.789: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/1607591704701_Trim.mp4"
+09:16:11.792: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Die  Juden.mp4"
+09:16:11.796: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/youtube_com_Adolf_Hitler_talks_about_the_Jews_and_the_Allies_YouTube-xG5TiS6qVOU.mp4"
+09:16:11.797: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/15989d92919701.mp4"
+09:16:11.797: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201008-023054.mp4"
+09:16:11.798: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/My project 1 2020-10-12_01-48-06.mp4"
+09:16:11.801: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/asasasas.mp4"
+09:16:11.812: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Desktop/ice_video_20201207-133620.mp4"
+09:16:16.052: (I) 19048: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.34&pid=9&mh=e38b5542883de74679b36f776e0f3122&h=829e3b7ad3ecea3402a861ef17593798"
+09:16:16.278: (I) 19048: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.34"
+09:16:16.278: (I) 19048: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.34" current version: 2.34 result: 0
+09:16:28.845: (I) 12644:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-29-09-13-39.mp4"
+09:16:28.935: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-16-18.mp4"
+09:16:28.935: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-23-13-29-26.mp4"
+09:16:28.936: (W) 19048: ui.thumbcache       : ThumbCache::Private::getSourceMediaPixma: File path not exists "C:/Users/Mr.TweeTy/Documents/5555555.mp4"
+09:16:29.424: (I) 14804:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609229789000 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Documents/Captura/2020-12-29-09-13-39.mp4"
+09:16:32.303: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: 0'
+09:16:32.304: (I) 12644: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+09:16:32.311: (I) 12644: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+09:16:32.311: (I) 12644: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 7
+09:16:32.336: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: 0'. Elapsed time: 33
+09:16:32.406: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Documents/Captura/2020-12-29-09-13-39.mp4"
+09:16:33.129: (W) 14804:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:33.129: (W) 14804:                     : thumbjob::runVideo()                    : Thumb reader error
+09:16:33.307: (I) 21284:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 995 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Documents/Captura/2020-12-29-09-13-39.mp4"
+09:16:33.332: (I) 14556:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609229792327 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Documents/Captura/2020-12-29-09-13-39.mp4"
+09:16:35.382: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:16:35.622: (W) 21284:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{4015c701-62aa-426a-bd50-e13c2a331180}"
+09:16:36.510: (I) 21284:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 888 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Documents/Captura/2020-12-29-09-13-39.mp4"
+09:16:37.739: (W)  2116:                     : mfreadervideo::run3()                   : can't reposition reader!
+09:16:37.958: (W) 14556:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:37.958: (W) 14556:                     : thumbjob::runVideo()                    : Thumb reader error
+09:16:40.082: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:40.302: (W)  2116:                     : mfreadervideo::run3()                   : can't reposition reader!
+09:16:41.580: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [00:50.632 (506320000)]slider: [00:50.632 (506320000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:16:42.287: (W) 21284:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{4015c701-62aa-426a-bd50-e13c2a331180}"
+09:16:42.511: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:42.741: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:43.131: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:43.388: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:43.941: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:44.191: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:44.538: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:44.757: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:44.974: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:45.191: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:45.191: (W) 21284:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{4015c701-62aa-426a-bd50-e13c2a331180}" event count 10
+09:16:45.670: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:45.964: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:46.198: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:46.419: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:46.653: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:46.982: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:47.209: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:47.430: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:47.905: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:48.368: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:48.670: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:49.225: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:49.511: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:49.971: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:50.351: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:50.780: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:51.210: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:51.927: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:52.386: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:16:52.746: (W) 21284:                     : mfreadervideo::getVideoFrame3()         : can't reposition reader!
+09:21:11.070: (I) 19048: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:21:11.083: (I) 19048: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 13
+09:21:51.804: (W)  2116:                     : mfreadervideo::run3()                   : can't reposition reader!
+09:22:01.405: (W) 21284:                     : videoprocessor::getClipView()           : Can't get frame view for clip:  "{4015c701-62aa-426a-bd50-e13c2a331180}"
+09:22:21.329: (I) 18192:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:21.417: (I) 15652:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609230141371 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:24.056: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Entering 'Begin drop on timeline. Items: 1, drop at: -1'
+09:22:24.056: (I) 18192: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Entering 'Drop on timeline future'
+09:22:24.058: (I) 18192: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:     Drop on timeline future FINISHED. Processed: 1 of 1
+09:22:24.058: (I) 18192: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline::l:   Leaving 'Drop on timeline future'. Elapsed time: 2
+09:22:24.081: (I) 19048: ui.simpletimeline   : SimpleTimelineWidget::placeOnTimeline   : Leaving 'Begin drop on timeline. Items: 1, drop at: -1'. Elapsed time: 25
+09:22:24.082: (I) 21284:                     : scrubbingservice::getReader()           : "Reader succesfully opened in 22 ms. Operation context: PREVIEW. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:24.103: (I) 20304:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609230144079 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:24.122: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:24.124: (I) 21284:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 20 ms. Operation context: PLAY. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:26.406: (I) 21284:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 4"
+09:22:26.423: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:22:36.594: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [01:13.026 (730260000)]slider: [01:13.026 (730260000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:23:51.748: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:16.331 (1363317841)]slider: [02:16.312 (1363122424)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:23:52.301: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [02:16.281 (1362816485)]slider: [02:16.281 (1362816485)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:23:54.108: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:18.078 (1380786457)]slider: [02:18.041 (1380417083)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:23:55.146: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [02:18.014 (1380149801)]slider: [02:18.014 (1380149801)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:00.637: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:23.493 (1434938674)]slider: [02:23.473 (1434739924)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:02.339: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [02:23.448 (1434483080)]slider: [02:23.448 (1434483080)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:03.217: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:24.314 (1443144317)]slider: [02:24.278 (1442788484)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:29.843: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:24:31.470: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [02:20.170 (1401700000)]slider: [02:20.170 (1401700000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:40.368: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:30.462 (1504620000)]slider: [02:30.462 (1504620000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:43.363: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [02:21.395 (1413950000)]slider: [02:21.395 (1413950000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:47.667: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:25.806 (1458060000)]slider: [02:25.806 (1458060000)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:24:54.070: (I) 19048: ui.player           : Player::onPlay()                        : Play from start: clk: [02:23.356 (1433560000)]slider: [02:23.356 (1433560000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:05.841: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:23.386 (1433862373)]slider: [02:23.336 (1433362999)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:10.409: (I) 19048: ui.player           : Player::onPlay()                        : Play: clk: [02:13.308 (1333080000)]slider: [02:13.308 (1333080000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:20.713: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:23.601 (1436012756)]slider: [02:23.554 (1435541507)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:29.499: (I) 19048: ui.player           : Player::onPlay()                        : Play from start: clk: [02:23.356 (1433560000)]slider: [02:23.356 (1433560000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:36.482: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:23.385 (1433859078)]slider: [02:23.336 (1433368662)], state: Player::State(Playing), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:39.736: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:23.601 (1436010000)]slider: [02:23.601 (1436010000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:39.737: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [02:23.601 (1436010000)]slider: [02:23.601 (1436010000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:39.792: (I) 23480:                     : thumbjob::runVideo()                    : "Reader succesfully opened in 1609230339762 ms. Operation context: THUMBNAIL. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:25:55.937: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:25:56.914: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [ (-926290000)]slider: [ (-926290000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:56.915: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [ (-926290000)]slider: [ (-926290000)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:25:56.935: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Show properties for:( {d7042553-3baf-4390-8ef2-b9744482691e} )
+09:25:56.936: (W) 19048:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+09:25:56.936: (W) 19048:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+09:25:56.945: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Audio, prev Prop_General, docClip {d7042553-3baf-4390-8ef2-b9744482691e}
+09:25:56.971: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:25:56.995: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:25:57.741: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Audio, docClip {d7042553-3baf-4390-8ef2-b9744482691e}
+09:26:00.062: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Crop, prev Prop_General, docClip {d7042553-3baf-4390-8ef2-b9744482691e}
+09:26:01.232: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_Text, prev Prop_Crop, docClip {d7042553-3baf-4390-8ef2-b9744482691e}
+09:26:11.091: (I) 19048: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:26:11.105: (I) 19048: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 14
+09:26:26.409: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setPage()         : Change property page to Prop_General, prev Prop_Text, docClip {d7042553-3baf-4390-8ef2-b9744482691e}
+09:26:28.150: (I) 19048: ui.proprerties      : ClipPropertiesWidget::setDocClip()      : Hide properties for:( {d7042553-3baf-4390-8ef2-b9744482691e} )
+09:26:28.151: (W) 19048:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+09:26:28.183: (I) 22988:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:26:29.219: (I) 19048: app.export          : Ui::exportCurrentDocument()             : Begin export
+09:26:29.220: (I) 19048: app.documentsstorage: DocumentsStorage::saveDocument          : Entering 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'
+09:26:29.223: (I) 19048: app.documentsstorage: DocumentsStorage::saveDocument          : Leaving 'Save document {5222d21f-c51c-4f9e-bc3c-3a6e96bec666}'. Elapsed time: 3
+09:26:34.746: (I) 19048: app.export          : ExportDialog::Private::switchToProgressP: Switch to ExportProgress page
+09:26:34.812: (I)  7324:                     : threadProc()                            : Encoder thread id:  7324
+09:26:34.812: (I)  7324:                     : threadProc()                            : --- start encoding thread ---
+09:26:34.883: (I)  7324:                     : mfvideohelper::checkCompatibility()     : mfvideohelper compatibility checked successfully
+09:26:34.883: (I)  7324:                     : threadProc()                            : --- encoder context ---
+09:26:34.883: (I)  7324:                     : VideoProcessorContext::dumpContextState(: DX11 device [type 1]: true
+09:26:34.883: (I)  7324:                     : VideoProcessorContext::dumpContextState(: Effect processor:  true
+09:26:34.883: (I)  7324:                     : VideoProcessorContext::dumpContextState(: Text processor:  true
+09:26:34.883: (I)  7324:                     : VideoProcessorContext::dumpContextState(: Video manager:  true
+09:26:34.883: (I)  7324:                     : VideoProcessorContext::dumpContextState(: Video processor:  true
+09:26:34.883: (I)  7324:                     : mediaprocessor::setDocument()           : Enter mediaprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+09:26:34.883: (I)  7324:                     : audioprocessor::setDocument()           : audioprocessor setDocument():  Doc(My project 1, {5222d21f-c5...)
+09:26:34.883: (I)  7324:                     : mediaprocessor::setDocument()           : Process setDocument()
+09:26:34.883: (I)  7324:                     : mediaprocessor::setDocument()           : Leave mediaprocessor setDocument()
+09:26:34.883: (I)  7324:                     : threadProc()                            : encoding mediaprocessor init done
+09:26:34.883: (I)  7324:                     : threadProc()                            : output format:  mp4
+09:26:34.883: (I)  7324:                     : threadProc()                            : quality:  1
+09:26:34.883: (I)  7324:                     : threadProc()                            : frame size:  "1920x1080"
+09:26:34.883: (I)  7324:                     : threadProc()                            : document duration:  254870000
+09:26:34.883: (I)  7324:                     : threadProc()                            : clip count:  1
+09:26:34.884: (W)  7324:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+09:26:34.884: (I)  7324:                     : threadProc()                            : encoding starting - output  "C:/Users/Mr.TweeTy/Documents\\full of shit.mp4"
+09:26:34.884: (I) 19048: ui.player           : Player::onPause()                       : Pause: clk: [00:00.000 (0)]slider: [00:00.000 (0)], state: Player::State(Paused), doc: Doc(My project 1, {5222d21f-c5...)
+09:26:34.884: (W) 19048:                     : PrivateTextPage::Private::updatePreviewB: Player::State(Paused)
+09:26:34.931: (I) 12932:                     : VideoProcessorContext::inquiryReader()  : "Reader succesfully opened in 48 ms. Operation context: ENCODING. File path: C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:26:34.936: (I)  7324:                     : threadProc()                            : --- encoding parameters ---
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : use MF encoder
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : width:  1920
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : height:  1080
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : fps:  30
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : use hw:  true
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : video bitrate:  4354560
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : audio bitrate:  96000
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : sample rate:  48000
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : channels num:  2
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : channels mask:  3
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : audio format:  0
+09:26:34.936: (I)  7324:                     : mfencoder::dumpSettings()               : bits per sample:  16
+09:26:34.936: (I)  7324:                     : threadProc()                            : profile:  0
+09:26:34.950: (I) 12932:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 8294400 total count 1"
+09:26:34.951: (I) 12932:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 16588800 total count 2"
+09:26:34.951: (I) 12932:                     : dxresourcemanager::getResource()        : Allocate DX resources:  "total reserved 24883200 total count 3"
+09:26:34.954: (I)  2928:                     : mfreaderaudio::open()                   : open audio:  "C:/Users/Mr.TweeTy/Downloads/WHO's Science in 5 on COVID-19 - SARS-CoV-2 virus.mp4"
+09:26:35.181: (I)  7324:                     : mfencoder::initVideoStream()            : MFENCODER: Video encoder found
+09:26:35.184: (I)  7324:                     : mfencoder::initAudioStream()            : MFENCODER: Audio encoder found
+09:26:35.185: (I)  7324:                     : threadProc()                            : encoder opened
+09:26:44.958: (I)  7324:                     : threadProc()                            : encoder closed
+09:26:44.994: (I)  7324:                     : threadProc()                            : shutdown encoding mediaprocessor
+09:26:45.052: (I)  7324:                     : threadProc()                            : checking encoding result...
+09:26:45.052: (I) 19048: app.export          : ExportDialog::Private::switchToDonePage(: Switch to ExportDone page
+09:26:45.075: (W)  7324:                     : QObject::startTimer: Timers can only be used with threads started with QThread
+09:26:45.075: (I)  7324:                     : threadProc()                            : encoding done
+09:26:51.165: (I) 19048: app.export          : Ui::exportCurrentDocument()             : Export finished using "Open folder"
+09:26:52.420: (I) 19048: ui.mainwindow       : MainWindow::~MainWindow                 : Entering 'Delete main window'
+09:26:52.420: (I) 19048: ui.mainwindow       : MainWindow::~MainWindow                 : Leaving 'Delete main window'. Elapsed time: 0
+09:26:52.426: (I) 19048: ui.player           : Player::~Player                         : Entering 'Delete player'
+09:26:52.482: (I) 19048: ui.player           : Player::~Player                         : Leaving 'Delete player'. Elapsed time: 56
