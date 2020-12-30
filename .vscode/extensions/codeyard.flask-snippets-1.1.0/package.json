@@ -1,0 +1,34 @@
+{
+	"name": "flask-snippets",
+	"displayName": "Flask Snippets",
+	"description": "",
+	"version": "1.1.0",
+	"engines": {
+		"vscode": "^1.44.0"
+	},
+	"publisher": "CodeYard",
+	"categories": [
+		"Snippets"
+	],
+	"repository": {
+		"directory": ".git",
+		"url": "https://github.com/DevHyperCoder/Flask-Snippets.git"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "python",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/jinja-snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "095f5c1a-a92d-42e4-9d89-363d0d989220",
+		"publisherId": "5cd91e06-7e20-4ed7-bef8-572d69e51341",
+		"publisherDisplayName": "Code Yard"
+	}
+}

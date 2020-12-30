@@ -1,0 +1,119 @@
+{
+	"name": "project-templates",
+	"displayName": "Project Templates",
+	"description": "Create and apply custom projects templates",
+	"version": "1.2.0",
+	"author": "C. Antonio Sánchez",
+	"publisher": "cantonios",
+	"icon": "icon.png",
+	"homepage": "https://github.com/cantonios/vscode-project-templates",
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/cantonios/vscode-project-templates"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.openTemplatesFolder",
+		"onCommand:extension.saveProjectAsTemplate",
+		"onCommand:extension.deleteTemplate",
+		"onCommand:extension.createProjectFromTemplate"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "VSCode Project Templates Configuration",
+			"properties": {
+				"projectTemplates.templatesDirectory": {
+					"type": [
+						"string",
+						"null"
+					],
+					"description": "Directory to read/store project template folders"
+				},
+				"projectTemplates.usePlaceholders": {
+					"type": [
+						"boolean"
+					],
+					"default": true,
+					"description": "Look for and replace placeholders in template (e.g. #{author})"
+				},
+				"projectTemplates.placeholderRegExp": {
+					"type": [
+						"string"
+					],
+					"default": "#{(\\w+)?}",
+					"description": "Regular expression for detecting placeholders (e.g. \"#{(\\w+?)}\").  The first capture group dictates the placeholder key."
+				},
+				"projectTemplates.placeholders": {
+					"type": [
+						"object"
+					],
+					"default": {},
+					"description": "List of placeholders, in key-value string pairs."
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.openTemplatesFolder",
+				"title": "Open Templates Folder",
+				"category": "Project"
+			},
+			{
+				"command": "extension.saveProjectAsTemplate",
+				"title": "Save Project as Template",
+				"category": "Project"
+			},
+			{
+				"command": "extension.deleteTemplate",
+				"title": "Delete Existing Template",
+				"category": "Project"
+			},
+			{
+				"command": "extension.createProjectFromTemplate",
+				"title": "Create Project from Template",
+				"category": "Project"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "extension.createProjectFromTemplate",
+					"when": "explorerResourceIsFolder",
+					"group": "projectTemplates@1"
+				},
+				{
+					"command": "extension.saveProjectAsTemplate",
+					"when": "explorerResourceIsFolder",
+					"group": "projectTemplates@2"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^8.10.25",
+		"tslint": "^5.8.0",
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21"
+	},
+	"__metadata": {
+		"id": "4e722d73-65a2-4f2f-a272-b7e7ac283aa8",
+		"publisherId": "28446ef8-f96a-4428-807b-b678c93c689e",
+		"publisherDisplayName": "cantonios"
+	}
+}

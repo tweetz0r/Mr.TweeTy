@@ -1,0 +1,28 @@
+{
+	"name": "essential-data-science-pack",
+	"displayName": "Essential Data Science Extension Pack",
+	"description": "Collection of extensions for data science in VS Code",
+	"publisher": "analytic-signal",
+	"icon": "images/essential-data-science-pack-128px.png",
+	"version": "0.0.9",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Extension Packs",
+		"Data Science",
+		"Machine Learning",
+		"Visualization"
+	],
+	"extensionPack": [
+		"ms-python.python",
+		"msrvida.vscode-sanddance",
+		"analytic-signal.preview-html",
+		"analytic-signal.preview-pdf"
+	],
+	"__metadata": {
+		"id": "8ec81db3-8176-4b2d-aeff-3612ef30efde",
+		"publisherId": "5fe0df1e-37b9-41fa-99df-82fdd7c74a58",
+		"publisherDisplayName": "Analytic Signal Limited"
+	}
+}

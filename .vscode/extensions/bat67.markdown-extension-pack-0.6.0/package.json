@@ -1,0 +1,55 @@
+{
+	"name": "markdown-extension-pack",
+	"displayName": "Markdown Extension Pack",
+	"description": "Popular Visual Studio Code extensions for Markdown",
+	"version": "0.6.0",
+	"publisher": "bat67",
+	"icon": "icon.jpg",
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"galleryBanner": {
+		"color": "#333333",
+		"theme": "dark"
+	},
+	"keywords": [
+		"markdown",
+		"markdownlint",
+		"LaTex",
+		"linter",
+		"extension pack"
+	],
+	"categories": [
+		"Extension Packs"
+	],
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bat67/markdown-extension-pack"
+	},
+	"homepage": "https://github.com/bat67/markdown-extension-pack",
+	"bugs": {
+		"url": "https://github.com/bat67/markdown-extension-pack/issues"
+	},
+	"extensionDependencies": [
+		"yzhang.markdown-all-in-one",
+		"DavidAnson.vscode-markdownlint",
+		"goessner.mdmath",
+		"shd101wyy.markdown-preview-enhanced",
+		"yzane.markdown-pdf",
+		"AlanWalk.markdown-toc",
+		"darkriszty.markdown-table-prettify",
+		"bierner.markdown-emoji",
+		"ionutvmi.path-autocomplete",
+		"bierner.markdown-checkbox",
+		"bierner.markdown-preview-github-styles",
+		"telesoho.vscode-markdown-paste-image",
+		"mdickin.markdown-shortcuts",
+		"csholmq.excel-to-markdown-table"
+	],
+	"__metadata": {
+		"id": "9ee1b9b1-4aa4-46b2-8a9c-9f6e52af1c32",
+		"publisherDisplayName": "bat67",
+		"publisherId": "b9c6862b-0a99-4440-bf22-3d14292d4818"
+	}
+}

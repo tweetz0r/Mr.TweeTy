@@ -1,0 +1,59 @@
+{
+	"name": "markdown-mermaid",
+	"version": "1.9.0",
+	"displayName": "Markdown Preview Mermaid Support",
+	"description": "Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview",
+	"icon": "resources/logo.png",
+	"keywords": [
+		"mermaid",
+		"markdown",
+		"flowchart",
+		"diagram",
+		"multi-root ready"
+	],
+	"publisher": "bierner",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/mjbvz/vscode-markdown-mermaid.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mjbvz/vscode-markdown-mermaid/issues"
+	},
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"activationEvents": [],
+	"main": "./index.js",
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"markdown.previewScripts": [
+			"./page.bundle.js"
+		],
+		"markdown.markdownItPlugins": true
+	},
+	"dependencies": {
+		"markdown-it-container": "^3.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.4.0",
+		"babel-loader": "^8.0.5",
+		"css-loader": "^2.1.1",
+		"mermaid": "^8.8.2",
+		"mini-css-extract-plugin": "^0.5.0",
+		"style-loader": "^0.23.0",
+		"terser-webpack-plugin": "^2.3.8",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.7"
+	},
+	"scripts": {
+		"prepublish": "npm run build",
+		"build": "webpack-cli --mode=production"
+	},
+	"__metadata": {
+		"id": "f8d0ffc4-66bb-4a9c-8149-ef8f043691a1",
+		"publisherId": "f164f116-e2aa-496b-84dc-2451248e8beb",
+		"publisherDisplayName": "Matt Bierner"
+	}
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Tasks Panel",
+    "scopeName": "tasks-panel",
+    "patterns": [
+        {
+			"begin": "(TP>\\s)",
+			"end": "\\n",
+			"patterns": [
+				{
+					"begin": "\\[(?i:(info))",
+					"end": "\\]",
+					"name": "comment.info.output.task-panel"
+                },
+				{
+					"begin": "\\[(?i:(warning))",
+					"end": "\\]",
+					"name": "invalid.deprecated.warning.output.task-panel"
+                },   
+				{
+					"begin": "(?i:(discovering|executing|running|starting|finished|waiting))",
+					"end": "\\s",
+					"name": "keyword.definition.output.task.panel"
+                },
+				{
+					"begin": "(?i:(exception|error|failure|fail|throw))(\\:|\\s)",
+					"end": "\\n",
+					"name": "invalid.output.task.panel"
+                }, 
+				{
+					"begin": "\\[(?i:(error))",
+					"end": "\\]",
+					"name": "invalid.output.task.panel"
+                },                               
+                {
+                    "match": "\\b\\d+\\.?\\d*?\\b",
+                    "name": "constant.numeric.output.task-panel"
+                },
+                {
+                    "match": "\"(.*?)\"",
+                    "name": "string.quoted.output.task-panel"
+                },
+                {
+                    "match": "'(.*?)'",
+                    "name": "string.quoted.output.task-panel"
+                },
+                {
+                    "match": "\\b(?i:([a-z]|[0-9])+\\:((\\/\\/)|((\\/\\/)?(\\S)))+)",
+                    "name": "storage.url.output.task-panel"
+                },
+                {
+                    "match": ">>\\s",
+                    "name": "comment.info.output.task-panel"
+                }   
+			]
+        }
+    ]
+}
